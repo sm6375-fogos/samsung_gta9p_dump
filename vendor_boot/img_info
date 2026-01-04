@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=875969122
+dt=dtb.img
+kernel_size=4
+ramdisk_size=32768
+second_size=10680493
+dtb_offset=0x00007000
+dtb_size=808745008
+base_addr=0xffff9000
+kernel_offset=0x00008000
+ramdisk_offset=0x02007000
+tags_offset=0x6676ad6f
+dtbo_offset=
+cmd_line='2000 msm_rtb.filter=0x237 iptable_raw.raw_before_defrag=1 ip6table_raw.raw_before_defrag=1 firmware_class.path=/vendor/firmware_mnt/image firmware_class.path=/vendor/firmware_mnt/image bootconfig loop.max_part=7'
+board="p=32,memsize=307"

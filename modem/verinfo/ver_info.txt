@@ -1,0 +1,22 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.VT.5.4.2.c1-00047-MANNAR-1.132328.2",
+        "boot": "BOOT.XF.4.2-00299-MANNARLAZ-2",
+        "btfm": "BTFM.CHE.3.2.1-00280-QCACHROMZ-1",
+        "btfm_CHK": "BTFM.CHE.2.1.6-00118-QCACHROMZ-1",
+        "cdsp": "CDSP.VT.2.4.2-00327-MANNAR-1",
+        "common": "Strait.LA.2.5.2-00014-STD.PROD-1",
+        "glue": "GLUE.STRAIT_LA.2.5.2-00004-NOOP_TEST-1",
+        "modem": "MPSS.HI.4.3.4-00529-MANNAR_GEN_PACK-1.42067.71.82857.27",
+        "rpm": "RPM.BF.1.11-00140-MANNARAAAAANAZR-1",
+        "tz": "TZ.XF.5.1.6-00103-MANNARAAAAANAZT-3.132328.3",
+        "tz_apps": "TZ.APPS.1.23-00113-MANNARAAAAANAZT-1.132328.3.137699.2",
+        "wlan": "WLAN.HL.3.3.2-00659-QCAHLSWMTPLZ-1"
+    },
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Strait.LA.2.5.2-00014-STD.PROD-1",
+        "Product_Flavor": "asic",
+        "Time_Stamp": "2025-11-23 12:51:51"
+    },
+    "Version": "1.0"
+}

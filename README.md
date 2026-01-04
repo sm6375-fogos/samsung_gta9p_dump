@@ -1,0 +1,20 @@
+## gta9pxxx-user 16 BP2A.250605.031.A3 X216BXXU9EYKG release-keys
+- Manufacturer: samsung
+- Platform: blair
+- Codename: gta9p
+- Brand: samsung
+- Flavor: gta9pxxx-user
+- Release Version: 16
+- Kernel Version: 6.1.128
+- Id: BP2A.250605.031.A3
+- Incremental: X216BXXU9EYKG
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: undefined
+- Fingerprint: samsung/gta9pxxx/gta9p:14/UP1A.231005.007/X216BXXU9EYKG:user/release-keys
+- OTA version: 
+- Branch: gta9pxxx-user-16-BP2A.250605.031.A3-X216BXXU9EYKG-release-keys
+- Repo: samsung_gta9p_dump
