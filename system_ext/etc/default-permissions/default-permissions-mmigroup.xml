@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<exceptions>
+  <exception package="com.factory.mmigroup">
+    <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+    <permission name="android.permission.CAMERA" fixed="false"/>
+    <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+    <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+    <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+  </exception>
+</exceptions>
