@@ -1,0 +1,6 @@
+service ngk_security_audit /system/bin/ngk_security_audit
+	class core
+	user vendor_ker
+	group vendor_ker
+	disabled
+	oneshot

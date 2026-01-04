@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config><compat-change enableSinceTargetSdk="36" id="352312780" name="RESTRICT_CONTACTS_CREATION_IN_ACCOUNTS" /></config>

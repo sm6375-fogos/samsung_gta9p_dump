@@ -1,0 +1,11 @@
+# ATRACE
+on property:debug.perfmond.atrace=*
+    exec u:r:shell:s0 -- /system/bin/sh /system/bin/init.atrace.sh
+
+# PERFETTO
+on post-fs-data
+    mkdir /data/log/traces 0777 system system
+    
+# Only for UT device, it will disable kptr_restrict.
+on property:debug.perfmond.user_trial.enable=1
+    write /proc/sys/kernel/kptr_restrict 0

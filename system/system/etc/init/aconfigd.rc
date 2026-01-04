@@ -1,0 +1,31 @@
+service system_aconfigd_mainline_init /system/bin/aconfigd-system mainline-init
+    class core
+    user system
+    group system
+    oneshot
+    disabled # does not start with the core class
+    file /dev/kmsg w
+
+service system_aconfigd_platform_init /system/bin/aconfigd-system platform-init
+    class core
+    user system
+    group system
+    oneshot
+    disabled # does not start with the core class
+    file /dev/kmsg w
+
+service system_aconfigd_socket_service /system/bin/aconfigd-system start-socket
+    class core
+    user system
+    group system
+    oneshot
+    disabled # does not start with the core class
+    file /dev/kmsg w
+    socket aconfigd_system stream 666 system system
+
+on post-fs
+    mkdir /metadata/aconfig 0775 root system
+    mkdir /metadata/aconfig/flags 0770 root system
+    mkdir /metadata/aconfig/maps 0775 root system
+    mkdir /metadata/aconfig/boot 0775 root system
+    exec_start system_aconfigd_platform_init

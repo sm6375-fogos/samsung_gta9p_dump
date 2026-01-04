@@ -1,0 +1,26 @@
+on charger
+    chmod 0664 /sys/class/power_supply/sec_auth/batt_heatmap
+    chown system radio /sys/class/power_supply/sec_auth/batt_heatmap
+    class_start heatmap-charger
+
+on boot
+    chmod 0664 /efs/FactoryApp/heatmap
+    chown system system /efs/FactoryApp/heatmap
+    chmod 0664 /sys/class/power_supply/sec_auth/batt_heatmap
+    chown system radio /sys/class/power_supply/sec_auth/batt_heatmap
+    
+    chmod 0664 /efs/FactoryApp/dsoh
+    chmod 0664 /efs/FactoryApp/heatmap_to_cycle
+    chmod 0664 /efs/FactoryApp/extended_heatmap
+    chmod 0664 /efs/FactoryApp/batt_LSAC
+    
+    mkdir /efs/FactoryApp/batt_ECT 0775 system system
+    chmod 0664 /efs/FactoryApp/batt_ECT/ect_output.json
+    chmod 0664 /efs/FactoryApp/batt_replace_count
+    chmod 0664 /data/log/ect_inputlog.txt
+    chmod 0664 /data/log/ect_outputlog.txt
+
+service heatmap /system/bin/heatmap
+    class heatmap-charger core
+    user system
+    group system

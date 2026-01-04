@@ -1,0 +1,33 @@
+#!
+# @file gpp_app_list
+#
+# @cr
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# All rights reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+# @services
+#
+# game package name, there must be no extra spaces at the end of each line
+com.YourCompany.srgb
+com.ztgame.bob
+com.tencent.ig
+com.tencent.tmgp.sgame
+com.tencent.tmgp.pubgmhd
+com.miHoYo.Yuanshen
+com.miHoYo.GenshinImpact
+com.tencent.ig
+com.activision.callofduty.shooter
+com.HoYoverse.hkrpgoversea
+com.miHoYo.hkrpg
+com.tencent.tmgp.cod
+com.tencent.tmgp.cf
+com.tencent.jkchess
+com.tencent.KiHan
+com.tencent.lolm
+com.tencent.mf.uam
+com.netease.party
+com.tencent.tmgp.wdsj666
+com.tencent.tmgp.dfjs
+com.tencent.tmgp.xxajh
+com.tencent.tmgp.eyou.tiyu
+com.netease.nshm

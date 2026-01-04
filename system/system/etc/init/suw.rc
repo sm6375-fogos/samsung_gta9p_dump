@@ -1,0 +1,2 @@
+on property:ril.product_code=*
+    property_update

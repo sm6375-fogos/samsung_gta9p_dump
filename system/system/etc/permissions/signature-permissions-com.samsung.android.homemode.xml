@@ -1,0 +1,44 @@
+<!--
+  ~ This XML file declares which platform signature permissions to grant to
+  ~ platform signed nonsystem apps.
+-->
+<permissions>
+	<signature-permissions package="com.samsung.android.homemode">
+		<permission name="android.permission.REAL_GET_TASKS"/>
+		<permission name="android.permission.WRITE_SETTINGS"/>
+		<permission name="com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ"/>
+		<permission name="com.samsung.kidshome.broadcast.DEFAULT_HOME_CHANGE_PERMISSION"/>
+		<permission name="com.samsung.android.weather.DATA_SERVICE"/>
+		<permission name="com.samsung.android.weather.permission.START_ACTIVITY"/>
+		<permission name="com.samsung.android.mobileservice.social.share.contents.provider.permission.READ"/>
+		<permission name="com.samsung.android.mobileservice.social.share.contents.provider.permission.WRITE"/>
+		<permission name="com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE"/>
+		<permission name="com.wssnps.permission.COM_WSSNPS"/>
+		<permission name="com.sec.android.settings.permission.SOFT_RESET"/>
+		<permission name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+		<permission name="com.samsung.android.scloud.sync.permission.WRITE"/>
+		<permission name="android.permission.STOP_APP_SWITCHES"/>
+		<permission name="com.samsung.android.providers.media.WRITE"/>
+		<permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+		<permission name="com.samsung.android.mobileservice.social.share.item.provider.permission.READ"/>
+		<permission name="android.permission.STATUS_BAR_SERVICE"/>
+		<permission name="com.samsung.android.mobileservice.social.share.space.provider.permission.READ"/>
+		<permission name="com.samsung.android.scloud.sync.permission.READ"/>
+		<permission name="com.samsung.android.mobileservice.social.share.request.provider.permission.WRITE"/>
+		<permission name="android.permission.MANAGE_USERS"/>
+		<permission name="com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+		<permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+		<permission name="com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE"/>
+		<permission name="com.samsung.android.mobileservice.sasettings.permission.USE_SASETTINGS"/>
+		<permission name="com.samsung.android.mobileservice.social.share.request.provider.permission.READ"/>
+		<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+		<permission name="com.samsung.android.homemode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+		<permission name="com.samsung.android.holiday.permission.READ_HOLIDAY"/>
+		<permission name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+		<permission name="com.samsung.android.providers.media.READ"/>
+		<permission name="com.samsung.android.mobileservice.social.group.provider.permission.READ"/>
+		<permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+		<permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+	</signature-permissions>
+</permissions>

@@ -1,0 +1,7 @@
+on post-fs-data
+    mkdir /data/misc/ker 0770 vendor_ker vendor_ker
+    mkdir /efs/sec_efs/ker 0770 vendor_ker vendor_ker
+    chmod 500 /sys/kernel/ker
+    chown vendor_ker vendor_ker /sys/kernel/ker
+    chown vendor_ker vendor_ker /sys/kernel/ker/pad_cmd
+    chown vendor_ker vendor_ker /sys/kernel/ker/state

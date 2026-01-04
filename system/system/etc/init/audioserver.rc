@@ -1,0 +1,92 @@
+service audioserver /system/bin/audioserver
+    class core
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    # SEC_AUDIO_DUMP : add [log] for pcm dump
+    group audio camera drmrpc media mediadrm net_bt net_bt_admin net_bw_acct log wakelock
+    capabilities BLOCK_SUSPEND
+    # match rtprio cur / max with sensor service as we handle AR/VR HID sensor data.
+    rlimit rtprio 10 10
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    onrestart restart vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    onrestart restart vendor.audio-hal
+    onrestart restart vendor.audio-hal-aidl
+    onrestart restart vendor.audio-effect-hal-aidl
+    onrestart restart vendor.audio-hal-4-0-msd
+    onrestart restart audio_proxy_service
+    onrestart restart audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+
+on property:vts.native_server.on=1
+    stop audioserver
+on property:vts.native_server.on=0
+    start audioserver
+
+on property:init.svc.audioserver=stopped
+    stop vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    stop vendor.audio-hal
+    stop vendor.audio-hal-aidl
+    stop vendor.audio-effect-hal-aidl
+    stop vendor.audio-hal-4-0-msd
+    stop audio_proxy_service
+    stop audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+    # See b/155364397. Need to have HAL service running for VTS.
+    # Can't use 'restart' because then HAL service would restart
+    # audioserver bringing it back into running state.
+    start vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+    start audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+
+on property:init.svc.audioserver=running && property:vts.native_server.on=1
+    # See b/378773354. To ensure the audioserver disable when
+    # running test suite, this would cover the double start
+    # request from init that caused test flaky.
+    stop audioserver
+
+on property:init.svc.audioserver=running
+    start vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+    start audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+
+on property:sys.audio.restart.hal=1
+    # See b/159966243. Avoid restart loop between audioserver and HAL.
+    # Keep the original service names for backward compatibility
+    stop vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    stop vendor.audio-hal
+    stop vendor.audio-hal-aidl
+    stop vendor.audio-effect-hal-aidl
+    stop vendor.audio-hal-4-0-msd
+    stop audio_proxy_service
+    stop audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+    start vendor.secaudiohal-aidl # SEC_AUDIO_COMMON
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+    start audio_parameter_parser_service # SEC_AUDIO_SUPPORT_AIDL && SEC_AUDIO_VENDOR_LSI
+    # reset the property
+    setprop sys.audio.restart.hal 0
+
+# SEC_AUDIO_VOLUME_CUSTOMIZER
+on post-fs-data
+    mkdir /data/snd 0770 audioserver system
+    chown audioserver system /data/snd
+
+# SEC_AUDIO_DUMP
+    mkdir /data/vendor/audio 0770 audio audio
+    mkdir /data/vendor/log 0771 root system
+    mkdir /data/vendor/log/audiopcm 0770 audioserver system
+on early-boot
+    chmod 0771 /data/vendor/log
+
+on init
+    mkdir /dev/socket/audioserver 0775 audioserver audioserver

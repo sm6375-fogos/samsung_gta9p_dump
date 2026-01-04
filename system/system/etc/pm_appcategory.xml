@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appcategory>
+    <!-- This version must be the same as the version in AppCategoryListParserWithScpm.java. -->
+    <!-- If fix this file, must also update the version. -->
+    <version name="2024021301" />
+
+    <category name="CATEGORY_GAME">
+        <!--<package name="com.example0"/>-->
+    </category>
+
+    <category name="CATEGORY_AUDIO">
+        <!--<package name="com.example1"/>-->
+    </category>
+
+    <category name="CATEGORY_VIDEO">
+        <!--<package name="com.example2"/>-->
+    </category>
+
+    <category name="CATEGORY_IMAGE">
+        <!--<package name="com.example3"/>-->
+    </category>
+
+    <category name="CATEGORY_SOCIAL">
+        <!--<package name="com.example4"/>-->
+    </category>
+
+    <category name="CATEGORY_NEWS">
+        <!--<package name="com.example5"/>-->
+    </category>
+
+    <category name="CATEGORY_MAPS">
+        <!--<package name="com.example6"/>-->
+    </category>
+
+    <category name="CATEGORY_PRODUCTIVITY">
+        <!--<package name="com.example7"/>-->
+    </category>
+
+    <category name="CATEGORY_ACCESSIBILITY">
+        <!--<package name="com.example8"/>-->
+    </category>
+</appcategory>

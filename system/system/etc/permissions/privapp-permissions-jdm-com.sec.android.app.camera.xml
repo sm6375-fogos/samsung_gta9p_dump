@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.sec.android.app.camera">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <!--  + Bug 537021,liukeyang.wt,modify,2022/03/09,add Qrcdoe function-->
+        <permission name="android.permission.STATUS_BAR"/>
+        <!--  - Bug 537021,liukeyang.wt,modify,2022/03/09,add Qrcdoe function-->
+        <!--    +bug 537021,zhuqingsong.wt,modify,2022/01/25,add new phone state permission-->
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <!--    -bug 537021,zhuqingsong.wt,modify,2022/01/25,add new phone state permission-->
+        <permission name="android.permission.READ_MEDIA_IMAGES"/>
+        <permission name="android.permission.READ_MEDIA_VIDEO"/>
+        <permission name="android.permission.READ_MEDIA_AUDIO"/>
+        <!-- EXTB P220913-08292 , xionglin2.wt, add, 2022/09/30, add notification permission for android T -->
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+        <permission name="android.permission.MANAGE_MEDIA" />
+        <!--Bug S98901AA2-413,houchi.wt, modify, 2024/11/15, optimize the PPP flow logic-->
+        <permission name="android.permission.ACCESS_MEDIA_LOCATION" />
+        <permission name="com.samsung.android.permission.SEM_WRITE_CAPTURED_URL" />
+        <permission name="com.samsung.android.permission.SEM_MEDIA_CONTENTS"/>
+        <permission name="com.sec.android.permission.PERSONAL_MEDIA" />
+        <permission name="com.samsung.android.providers.media.READ" />
+        <permission name="com.samsung.android.providers.media.WRITE" />
+        <permission name="com.samsung.android.providers.media.CMH" />
+        <permission name="android.permission.NETWORK_SETTINGS" />
+    </privapp-permissions>
+</permissions>

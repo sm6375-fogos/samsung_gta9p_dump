@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20241125"/>
+<LIST>
+    <CERT value="ALL">
+        <package name="ALL" policy="warning" SA="2000">ALL</package>
+    </CERT>
+</LIST>

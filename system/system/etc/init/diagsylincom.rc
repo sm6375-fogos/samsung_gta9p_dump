@@ -1,0 +1,11 @@
+service sylincom_modem_service /system/bin/diagsylincom
+    class main
+    user system
+    group system radio inet net_raw sdcard_rw sdcard_r media_rw everybody
+    disabled
+
+on property:ril.tiantong.modem.state=on
+    start sylincom_modem_service
+
+#on property:ril.tiantong.modem.state=off
+#    stop sylincom_modem_service

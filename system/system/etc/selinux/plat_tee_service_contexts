@@ -1,0 +1,42 @@
+#line 1 "system/sepolicy/flagging/flagging_macros"
+####################################
+# is_flag_enabled(flag, rules)
+# SELinux rules which apply only if given feature is turned on
+
+
+####################################
+# is_flag_disabled(flag, rules)
+# SELinux rules which apply only if given feature is turned off
+
+
+####################################
+# starting_at_board_api(api_level, rules_if_api_level)
+#
+# This macro conditionally exposes SELinux rules ensuring they are available
+# only when the board API level is at or above the specified 'api_level'.
+
+
+####################################
+# until_board_api(api_level, rules_if_lower_api_level)
+#
+# This macro conditionally exposes SELinux rules ensuring they are available
+# only when the board API level is below the specified 'api_level'.
+
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/plat_tee_service_contexts/android_common/newline"
+
+#line 1 "system/sepolicy/private/tee_service_contexts"
+# Tee services contexts.
+#
+# This file defines all tee services available to VMs.
+# This file is read by virtmngr.
+#
+# Format:
+# <tee_service_name> <label>
+#
+# <tee_service_name> must be a string
+
+# Example tee service that can be used for end-to-end integration of
+# custom smcs filtering on devices with pkvm hypervisor.
+vendor.test_pkvm_tee_service u:object_r:test_pkvm_tee_service:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/plat_tee_service_contexts/android_common/newline"
+

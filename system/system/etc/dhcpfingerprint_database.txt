@@ -1,0 +1,700 @@
+db Ver:0.0.0.1, Last Updated : 31/03/2025
+60#android#android###
+55#0103061c#android###
+55#0103061c21333a3b79#android###
+60#dhcpcd400beta9#linux###
+60#dhcpcd401#linux###
+60#androiddhcp10#android###
+55#0103060f1a1c333a3b2b#android###
+55#0103060f1a1c333a3b2b6c#android###
+60#androiddhcp11#android###
+55#0103060f1a1c333a3b2b72#android###
+55#0103060f1a1c333a3b2b726c#android###
+60#androiddhcp12#android###
+60#androiddhcp13#android###
+60#androiddhcp14#android###
+55#01792103061c333a3b#android###
+60#dhcpcd4015#linux###
+55#01792103060f1c333a3b77#android###
+55#012103061c333a3b#android###
+60#dhcpcd5210#linux###
+60#androiddhcp60#android###
+55#0103060f1a1c333a3b#android###
+60#androiddhcp70#android###
+60#androiddhcp71#android###
+60#androiddhcp80#android###
+60#androiddhcp81#android###
+60#androiddhcp9#android###
+60#dhcpcd5210linux3813armv7lmv88de3108#linux#digital media player#google, inc.#
+55#01792103060f1c2c333a3b77#android###
+55#01792103060f1c333a3b#android###
+55#012103060f1c333a3b#android###
+55#019603060f2342#android###
+55#012103060f1c2c333a3b#android###
+55#012103060c0f1c2a333a3b77#android###
+55#012103060c0f1c333a3b77#android###
+55#012103060f1c333a3b77#android###
+55#0103060f0c13#beos###
+55#01792103060c0f1a1c33363a3b77fc#chromeos###
+60#dhcpcd514#chromeos###
+60#chromeos#chromeos###
+55#0103060c0f424396#cisco aireos#network equipment#cisco systems, inc.#
+60#docsis10#cisco ios#network equipment#cisco systems, inc.#
+55#01420603430c96#cisco ios#network equipment#cisco systems, inc.#
+55#0142060343#cisco ios#network equipment#cisco systems, inc.#
+55#0142060343962b#cisco ios#network equipment#cisco systems, inc.#
+55#01060f2c0321#cisco ios#network equipment#cisco systems, inc.#
+55#01060f2c34#cisco ios#network equipment#cisco systems, inc.#
+55#01060f2c0321962b#cisco ios#network equipment#cisco systems, inc.#
+55#0142060343962b7d#cisco ios#network equipment#cisco systems, inc.#
+55#0142060f2c03430c962b7d#cisco ios#network equipment#cisco systems, inc.#
+55#0103060f2c2e2f89d7e0e2#freebsd#thin client#neoware systems, inc.#
+55#0103060f2c2e2f89d7#freebsd#thin client#neoware systems, inc.#
+55#0103060f1c0c07092a303189d3d4d5d6db#freebsd#thin client#neoware systems, inc.#
+60#neoware#freebsd#thin client#neoware systems, inc.#
+60#haivisionmakitoxencoder#haivision###
+55#017903060f77fc#ios##apple, inc.#
+55#0103060f77fc#ios##apple, inc.#
+55#017903060f7277fc#ios##apple, inc.#
+55#017903060f6c7277fc#ios##apple, inc.#
+55#012103060f1a1c333a3b#linux##amazon#
+60#dhcpcd556#linux###
+60#axisnetworkcamera212ptz#linux#ip network camera#axis communications#
+60#axisnetworkcamera216fd#linux#ip network camera#axis communications#
+60#axisvideoserver241q#linux#ip network camera#axis communications#
+60#axisnetworkcameram3005#linux#ip network camera#axis communications#
+60#axisnetworkcameram3007#linux#ip network camera#axis communications#
+55#0103060c0f1c2a####
+60#axisnetworkcameram3203#linux#ip network camera#axis communications#
+60#axisptznetworkcameram5065#linux#ip network camera#axis communications#
+60#udhcp099pre#linux###
+60#axisnetwork#linux#ip network camera#axis communications#
+60#axisnetworkcamerap3214v#linux#ip network camera#axis communications#
+60#axisnetworkcamerap3224lv#linux#ip network camera#axis communications#
+60#axisnetworkcamerap3301#linux#ip network camera#axis communications#
+60#axisnetworkcamerap3304#linux#ip network camera#axis communications#
+55#0103060c0f11171c1d1f2128292a#linux###
+60#linux26156i686#linux###
+60#udhcp121#linux#voip phone#belkin#
+55#0102060c0f1a1c79032128292a77f9fc11#linux###
+55#011c02030f060c2c2f1a#linux###
+55#011c02030f06770c2c2f1a79#linux###
+55#011c02030f06770c2c2f1a792a#linux###
+55#0301fc2a0f060c#linux###
+55#011c02030f060c2a#linux###
+55#03060f1c0c07092a3031#linux###
+55#011c02030f060c2c2f#linux###
+55#0103060f1c0c07092a3031#linux###
+55#011c02030f060c28292a1a#linux###
+55#011c02790f060c28292a1a7703#linux###
+55#011c02790f060c28292a1a770379f9fc2a#linux###
+55#011c02030f060c28292a#linux###
+60#linux269gentoor1i686#linux###
+60#linux2611gentoor3i686#linux###
+55#0103060c0f11171c1d1f2128292a77#linux###
+60#linux2615gentoor5i686#linux###
+60#linux2617gentoor7i686#linux###
+60#linux2617gentoor8i686#linux###
+60#linux2619gentoor5i686#linux###
+55#06#linux###
+60#dhcpcd315#linux###
+60#linux2613gentoor3i686#linux###
+60#udhcp172#linux#ebook reader#amazon#
+60#udhcp1171#linux#ebook reader#amazon#
+60#udhcp1283#linux#ebook reader#amazon#
+55#0103060f332c#linux###
+55#0103060f1c0c07092a30311a#linux###
+60#udhcp#linux###
+55#0103060c0f1c2a28#linux###
+60#linux20#linux###
+55#0103060c0f171c1d1f2128292a#linux###
+60#linux22#linux###
+55#0103060c0f11171c1d1f2128292a0907c82c#linux###
+60#linux24#linux###
+60#linux26#linux###
+60#linux30#linux###
+60#linux31#linux###
+60#linux310#linux###
+60#linux311#linux###
+60#linux312#linux###
+60#linux313#linux###
+60#linux314#linux###
+60#linux315#linux###
+60#linux316#linux###
+60#linux317#linux###
+60#linux318#linux###
+60#linux318#linux###
+60#linux319#linux###
+60#linux32#linux###
+60#linux32#linux###
+60#linux33#linux###
+60#linux34#linux###
+60#linux35#linux###
+60#linux36#linux###
+60#linux37#linux###
+60#linux38#linux###
+60#linux38#linux###
+60#linux39#linux###
+60#linux40#linux###
+60#linux41#linux###
+60#linux41#linux###
+60#linux410#linux###
+60#linux411#linux###
+60#linux412#linux###
+60#linux413#linux###
+60#linux414#linux###
+60#linux414#linux###
+60#linux415#linux###
+60#linux416#linux###
+60#linux417#linux###
+60#linux418#linux###
+60#linux419#linux###
+60#linux419#linux###
+60#linux42#linux###
+60#linux420#linux###
+60#linux43#linux###
+60#linux44#linux###
+60#linux44#linux###
+60#linux45#linux###
+60#linux46#linux###
+60#linux47#linux###
+60#linux48#linux###
+60#linux49#linux###
+60#linux49#linux###
+60#linux50#linux###
+60#linux51#linux###
+60#linux510#linux###
+60#linux510#linux###
+60#linux52#linux###
+60#linux53#linux###
+60#linux54#linux###
+60#linux54#linux###
+60#linux54#linux###
+60#linux55#linux###
+60#linux56#linux###
+60#linux57#linux###
+60#linux58#linux###
+60#linux59#linux###
+60#linux60#linux###
+60#linux61#linux###
+60#linux62#linux###
+60#linux62#linux###
+60#linux63#linux###
+60#linux63#linux###
+60#linux64#linux###
+55#011c02030f06770c2c2f1a792a79f9fc2a#linux###
+55#01792103060c0f1a1c33363a3b77#linux###
+60#dhcpcd527linux2636desktop1mnbx8664authenticamd#linux###
+60#udhcp098#linux###
+55#011c03791a0c0f770628295755562c2d2e2f2a79f9fc2a#linux###
+55#01792103060c0f1a1c2a33363a3b77#linux###
+60#porteus#linux###
+60#dhcpcd318#linux###
+55#3a3b011c7921030c770f0628292a1a1178#linux###
+55#01792103060c0f1c2a33363a3b77#linux##pi#
+60#dhcpcd671linux4438armv6lbcm2708#linux##pi#
+60#dhcpcd6115linux41452armv6lbcm2835#linux##pi#
+60#dhcpcd6115linux41479armv6lbcm2835#linux##pi#
+60#vdlinuxvdlinux#linux###
+55#010203060c0f1c212a2b78#linux#voip phone#siemens enterprise communications#
+60#optiipphone#linux#voip phone#siemens enterprise communications#
+60#linux26#linux###
+55#011c02030f060c2829#linux###
+60#linux261621013defaulti686#linux###
+55#0103060c0f11171c1d1f2128292a09072c2d2e2f77#linux###
+55#0103060c0f11171c1d1f2128292a09072c2d2e2f#linux###
+60#linux2611420adefaulti686#linux###
+60#vdlinuxvdlinux#linux###
+55#0103060c0f1c2a7d#linux###
+55#011c02030f06770c2c2f1a792af921fc#linux###
+55#01030c0f06021a1c792128292a3677f9fc11#linux###
+55#011c02030f06770c2c2f1a#linux###
+60#macos91#mac os#laptop#apple, inc.#
+60#macos92#mac os#laptop#apple, inc.#
+55#0103060f212a2c2d2e2f4546474a4e4f#mac os#laptop#apple, inc.#
+55#0103060f70714e4f5ffc2c2f#mac os#laptop#apple, inc.#
+55#03060f70714e4f5ffc2c2f#mac os#laptop#apple, inc.#
+55#0103060f7770714e4f5ffc#mac os#laptop#apple, inc.#
+55#0103060f70714e4f5f2c2f#mac os#laptop#apple, inc.#
+55#03060f70714e4f5f2c2f#mac os#laptop#apple, inc.#
+55#0103060f70714e4f5ffc#mac os#laptop#apple, inc.#
+55#03060f70714e4f5ffc#mac os#laptop#apple, inc.#
+55#0103060f775ffc2c2e2f#mac os#laptop#apple, inc.#
+55#0103060f70714e4f5f#mac os#laptop#apple, inc.#
+55#01030c060f70714e4f#mac os#laptop#apple, inc.#
+55#03060f70714e4f5f#mac os#laptop#apple, inc.#
+55#0103060f70714e4f#mac os#laptop#apple, inc.#
+55#3c2b#mac os#laptop#apple, inc.#
+55#2b3c#mac os#laptop#apple, inc.#
+55#0103060f775ffc2c2e#mac os#laptop#apple, inc.#
+60#macbookpro161#mac os#laptop#apple, inc.#
+55#01032b3c#mac os#laptop#apple, inc.#
+55#0103432b3c#mac os#laptop#apple, inc.#
+55#0103060f432b3c#mac os#laptop#apple, inc.#
+55#0103060f#mac os#laptop#apple, inc.#
+55#017903060f77fc5f2c2e#mac os#laptop#apple, inc.#
+55#017903060f7277fc5f2c2e#mac os#laptop#apple, inc.#
+55#017903060f6c7277fc5f2c2e#mac os#laptop#apple, inc.#
+55#017903060f6c7277fc64655f2c2e#mac os#laptop#apple, inc.#
+55#0103062b#network bootloader###
+60#etherboot#network bootloader###
+55#01020305060b0c0d0f1011122b363c438081828384858687#network bootloader###
+60#pxeclientarch00000undi002001#network bootloader###
+60#pxeclientarch00007undi003016#network bootloader###
+60#pxeclient#network bootloader###
+55#0102030405060b0c0d0f10111216171c28292a2b3233363a3b3c42438081828384858687#network bootloader###
+55#011c0279030f77060c4342#openbsd###
+55#0103060c0f1c2a79#openwrt###
+60#udhcp1262#openwrt###
+60#udhcp1251#openwrt###
+60#udhcp1232#openwrt###
+55#0103061c0f#other desktop os#laptop##
+55#0103060c#other desktop os#laptop##
+55#010f03063a3b#other desktop os#laptop##
+60#sunwi86pc#solaris###
+60#udhcp1112#unix#ip network camera#open source lab#
+60#udhcp1133#unix#ip network camera#open source lab#
+60#udhcp1152#unix#ip network camera#open source lab#
+60#udhcp1193#unix#ip network camera#open source lab#
+60#udhcp1211#unix#ip network camera#open source lab#
+60#udhcp1211#unix#ip network camera#open source lab#
+60#udhcp1231#unix#ip network camera#open source lab#
+60#udhcp1241#unix#ip network camera#open source lab#
+60#udhcp1272#unix#ip network camera#open source lab#
+60#udhcp1283#unix#ip network camera#open source lab#
+55#01020305060c0f131c2128294041#unix###
+60#sunwsparctadpoles3gxsunos#unix###
+55#0103060c0f1c2b#unix###
+55#011c0279030f060c#unix###
+55#011c030f060c#unix###
+55#0103060c0f42#vxworks#voip phone#siemens enterprise communications#
+55#011c2b03#vxworks#voip phone#siemens enterprise communications#
+60#optipoint#vxworks#voip phone#siemens enterprise communications#
+55#011c03060f212a022b#vxworks#voip phone#siemens enterprise communications#
+55#011c03060f212a022b78#vxworks#voip phone#siemens enterprise communications#
+55#010203060c0f1c2a2b78#vxworks#voip phone#siemens enterprise communications#
+55#010f03062c2e2f1f21f92bfc#windows##microsoft corp.#
+60#msft50#windows##microsoft corp.#
+55#010f03062c2e2f1f2179f92bfc#windows##microsoft corp.#
+55#010f03062c2e2f1f212bfc#windows##microsoft corp.#
+55#010f03062c2e2f1f212bfc0c#windows##microsoft corp.#
+55#0f03062c2e2f1f212b#windows##microsoft corp.#
+55#0f03062c2e2f1f212bfc#windows##microsoft corp.#
+60#msft98#windows##microsoft corp.#
+55#0f03062c2e2f2b4d#windows##microsoft corp.#
+55#0f03062c2e2f2b4dfc#windows##microsoft corp.#
+55#010f03062c2e2f2b4dfc#windows##microsoft corp.#
+60#microsoftwindowsce#windows##microsoft corp.#
+55#0f03062c2e2f1f212b4d#windows##microsoft corp.#
+55#010203060c0f1a1c555657582c2d2e2f46454e4f#windows##microsoft corp.#
+60#pxeclient#windows##microsoft corp.#
+55#36#windows##microsoft corp.#
+55#53#windows##microsoft corp.#
+55#03#windows##microsoft corp.#
+55#010f03062c2e2f1f21f92bfc0c#windows##microsoft corp.#
+55#0f03062c2e2f1f21f92b#windows##microsoft corp.#
+55#0f03062c2e2f1f21f92bfc#windows##microsoft corp.#
+55#0f03062c2e2f1f21f92bfc0c#windows##microsoft corp.#
+55#1c02030f060c2c2f#windows##microsoft corp.#
+55#01030f062c2e2f#windows#laptop#microsoft corp.#
+55#0103060f2c2e2f39#windows#laptop#microsoft corp.#
+55#010f03062c2e2f2b4d#windows#laptop#microsoft corp.#
+55#010f03062c2e2f1f212b4d#windows#laptop#microsoft corp.#
+55#032c2e2f06#windows#laptop#microsoft corp.#
+55#010f032c2e2f06#windows#laptop#microsoft corp.#
+55#010f03062c2e2f1f212b#windows#laptop#microsoft corp.#
+55#010f03062c2e2f1f21f92b#windows#laptop#microsoft corp.#
+55#010f03062c2e2f1f2179f92b#windows#laptop#microsoft corp.#
+55#0603010f42430d2c#windows#laptop#microsoft corp.#
+55#0603010f42430d2c0c#windows#laptop#microsoft corp.#
+55#010f03062c2e2f1f2179f9fc2b#windows#laptop#microsoft corp.#
+55#0103060f1f212b2c2e2f79f9fc#windows#laptop#microsoft corp.#
+55#0103060f1f212b2c2e2f7779f9fc#windows#laptop#microsoft corp.#
+55#0103060f1f212b2c2e2f7779f9fc0044d0#windows#laptop#microsoft corp.#
+55#0103060f2c2e2f#windows#laptop#microsoft corp.#
+55#0103060f2c2e2f4243#windows#laptop#microsoft corp.#
+55#01031c060f2c2e2f1f21792b#xtos###
+55#010203060f582a2c2e2f##network equipment#2wire, inc.#
+55#0103060f23423a3b78b81a##voip phone#3com#
+60#3comphone3101b##voip phone#3com#
+60#3comphone3103##voip phone#3com#
+60#adobeflashproxyautodiscovery###adobe#
+55#011c363a3b3c2b03##voip phone#alcatel-lucent#
+60#alcateltscip0##voip phone#alcatel-lucent#
+55#01031c2b3a3b##voip phone#alcatel-lucent#
+60#alcatelnoe0##voip phone#alcatel-lucent#
+55#01030405060c0f1c2a##ip network camera#amcrest#
+55#010203060c0f11171c1d1f2128292a2b##iptv#amino technologies#
+60#aminoaminet110fisys##iptv#amino technologies#
+55#0103060c0f11171c1d1f2128292a2b##iptv#amino technologies#
+60#aminoaminet11xmboot131##iptv#amino technologies#
+55#0603010f42430d2b3a3b2a020c##ups#american power conversion corp.#
+60#apc##ups#american power conversion corp.#
+55#0603010f42430d2c0c2b3a3b2a02##ups#american power conversion corp.#
+55#1c03060f##network equipment#apple, inc.#
+55#011c03060f##network equipment#apple, inc.#
+55#0102030f060c2c##network equipment#apple, inc.#
+60#aaplbsdpc####
+55#0103060f42452bb0##voip phone#avaya, inc.#
+55#010307060f42452bb0##voip phone#avaya, inc.#
+60#ccpavayacom##voip phone#avaya, inc.#
+55#011c03060f2af2##voip phone#avaya, inc.#
+55#011c03060f2a2bb042##voip phone#avaya, inc.#
+55#0103060c0f1c2c##network equipment##
+60#biampsystemsinctesiraforte##dsp#biamp#
+60#biampsystemsinctesirafortex###biamp#
+55#011c030f060c2a1a##load balancer##
+60#f5networks##load balancer##
+60#blackberry##phone#blackberry#
+55#380601030f##phone#blackberry#
+60#blackberryos##phone#blackberry#
+60#blackberrytabletos##phone#blackberry#
+55#011c030f060c2c##network equipment#bluesocket#
+60#brightsignau335##digital signage#brightsign#
+55#017903060c0f1a1c212a2b333a3b77##digital signage#brightsign#
+55#01792103060c0f1c2b333a3b77##digital signage#brightsign#
+60#brightsignhd1022##digital signage#brightsign#
+55#01792103060c0f1a1c2b333a3b77##digital signage#brightsign#
+60#brightsignhd223##digital signage#brightsign#
+55#01792103060c0f1a1c2a2b333a3b77##digital signage#brightsign#
+60#brightsignhd225##digital signage#brightsign#
+60#brightsignls424##digital signage#brightsign#
+60#brightsignxd234##digital signage#brightsign#
+60#brightsignxt1144##digital signage#brightsign#
+55#0103060c0f1c2a282c2e##printer#brother industries, ltd.#
+55#0603010f42430d0c2c##printer#brother industries, ltd.#
+55#0103060c0f171c1d1f2128292a2c##network equipment#buffalo technology, inc.#
+60#canoniradv6755##printer#canon, inc.#
+60#canoniradvc3826##printer#canon, inc.#
+55#0103060f2c##printer#canon, inc.#
+55#0103060f2c45##printer#canon, inc.#
+60#canoniradvc5550iii##printer#canon, inc.#
+55#0103060c0f2c##printer#canon, inc.#
+60#canoniradvc5850##printer#canon, inc.#
+55#0c0f##printer#canon, inc.#
+55#03060f2c2f##printer#canon, inc.#
+55#0103060f2c2f##printer#canon, inc.#
+60#canon##printer#canon, inc.#
+55#012a4206030f9623##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7841##voip phone#cisco systems, inc.#
+55#0103060f23429602072a2b3a3b9fa0##voip phone#cisco systems, inc.#
+55#0103060f2a4296##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphone7905##voip phone#cisco systems, inc.#
+55#0103060f2a423396##voip phone#cisco systems, inc.#
+60#ciscoipphone7905##voip phone#cisco systems, inc.#
+55#014206030f9623##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphone##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7911##voip phone#cisco systems, inc.#
+55#0103060f234296##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphone7912##voip phone#cisco systems, inc.#
+55#0103060f23423396##voip phone#cisco systems, inc.#
+55#011c42060f032396##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7935##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7937g##voip phone#cisco systems, inc.#
+55#014206030f962397##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7960##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7945##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7945g##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7961g##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp7965g##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp8831##voip phone#cisco systems, inc.#
+60#ciscosystemsincipphonecp8841##voip phone#cisco systems, inc.#
+55#011c02790f060c28292a1a770379f921fc2a11##voip phone#cisco systems, inc.#
+60#cp8851##voip phone#cisco systems, inc.#
+55#01030f060c234296##voip phone#cisco systems, inc.#
+60#ciscosystemincipphonecp8945##voip phone#cisco systems, inc.#
+60#ciscoapc1100##network equipment#cisco systems, inc.#
+55#01060f2c030721962b##network equipment#cisco systems, inc.#
+60#ciscoapc1130##network equipment#cisco systems, inc.#
+60#ciscoapc1140##network equipment#cisco systems, inc.#
+60#ciscoapc1200##network equipment#cisco systems, inc.#
+60#ciscoapc1240##network equipment#cisco systems, inc.#
+60#ciscoapc1300##network equipment#cisco systems, inc.#
+55#0142060f2c03430c21962b##network equipment#cisco systems, inc.#
+60#ciscoapc1310##network equipment#cisco systems, inc.#
+60#ciscoapc1500##network equipment#cisco systems, inc.#
+55#011c032b060f##network equipment#cisco systems, inc.#
+55#011c032b060f07##network equipment#cisco systems, inc.#
+60#ciscoapc1530##network equipment#cisco systems, inc.#
+60#ciscoapc1550##network equipment#cisco systems, inc.#
+60#ciscoapc1560##network equipment#cisco systems, inc.#
+55#010f031c0c06071a2a2b##network equipment#cisco systems, inc.#
+60#ciscoapc1570##network equipment#cisco systems, inc.#
+60#ciscoapc1815##network equipment#cisco systems, inc.#
+60#ciscoapc1850##network equipment#cisco systems, inc.#
+55#010f031c0c06071a2b##network equipment#cisco systems, inc.#
+60#ciscoapc2600##network equipment#cisco systems, inc.#
+60#ciscoapc2700##network equipment#cisco systems, inc.#
+60#ciscoapc2800##network equipment#cisco systems, inc.#
+60#ciscoapc3500##network equipment#cisco systems, inc.#
+60#ciscoapc3600##network equipment#cisco systems, inc.#
+55#011c03060f4304##network equipment#cisco systems, inc.#
+55#011c03060f430407##network equipment#cisco systems, inc.#
+60#ap4800e##network equipment#cisco systems, inc.#
+60#ciscoapc702##network equipment#cisco systems, inc.#
+60#ciscoapc9105ax##network equipment#cisco systems, inc.#
+60#ciscoapc9120ax##network equipment#cisco systems, inc.#
+60#ciscoapcw9164##network equipment#cisco systems, inc.#
+60#ata186##voip phone#cisco systems, inc.#
+60#ata188##voip phone#cisco systems, inc.#
+55#0103060c0f2a4296##voip phone#cisco systems, inc.#
+60#ciscosysteminc##voip phone#cisco systems, inc.#
+60#airespaceap120##network equipment#cisco systems, inc.#
+55#0142060f2c034321962b##network equipment#cisco systems, inc.#
+55#0103060f2c2e2f1f212b##voip phone#clipcomm, inc.#
+55#01030f062b4d##network equipment#compex systems pte, ltd. #
+55#0103060c0f1c28292a####
+60#dellc1760nwcolorprinter##printer#dell, inc.#
+55#010203060c0f1a1c582c2d2e2f46454e4f##printer#dell, inc.#
+55#0103060c0f1c2a2b79f9###dell, inc.#
+60#idrac###dell, inc.#
+60#dell##printer#dell, inc.#
+55#0103060c0f42454643##network equipment#d-link systems, inc.#
+55#011c03060f0c##network equipment#enterasys networks, inc.#
+55#011c03####
+60#udhcp160##network equipment#enterasys networks, inc.#
+55#4e##network equipment#enterasys networks, inc.#
+60#linux2610mvl401pctargeti686##network equipment#enterasys networks, inc.#
+55#010f03062b##network equipment##
+60#wirelessapap1002eu##network equipment#enterasys networks, inc.#
+60#wirelessapap1602##network equipment#enterasys networks, inc.#
+60#wirelessapap1602c##network equipment#enterasys networks, inc.#
+60#wirelessapap4102ceu##network equipment#enterasys networks, inc.#
+60#rbt8200##network equipment#enterasys networks, inc.#
+55#0301##network equipment#enterasys networks, inc.#
+55#0103060c0f1c33363a3b##printer##
+55#01033a3b##media link controller#extron#
+55#01031c06##home appliance#samsung#
+55#010306####
+55#010203060c0f1c282a##firewall#fortinet#
+60#fortigate30d##firewall#fortinet#
+60#fortigate60f##firewall#fortinet#
+55#010203060c0f1c282af0f1##firewall#fortinet#
+55#03061a1c3a3b##game console#nintendo co., ltd.#
+55#011c02030f060c0407171a2b323336373c3d48##network equipment#gemtek technology co., ltd.#
+55#0103060c0f1c2b7d##voip phone#grandstream#
+60#grandstreamgxp1405dslforumorg##voip phone#grandstream#
+60#haglapc##sensor#hella aglaia#
+55#0103060f1c212b2c3a3b###hp#
+60#cpqrib3###hp#
+55#ca###hp#
+55#0603010f0c2c51452a2b1242439607##printer#hp#
+60#hewlettpackardlaserjet##printer#hp#
+55#01032c06070c0f16363a3b45122b77##printer#hp#
+60#hewlettpackardjetdirect##printer#hp#
+60#hplaserjet##printer#hp#
+55#0103072c33363a3b0c0f9012##printer#hp#
+55#01032c06070c0f16363a3b1290##printer#hp#
+55#01032c06070c0f16363a3b451290##printer#hp#
+55#01032c06070c0f16363a3b45122b779a##printer#hp#
+55#01032c06070c0f16363a3b45122b##printer#hp#
+55#362c06070c0f16451277fc##printer#hp#
+60#hpprinter##printer#hp#
+60#hp##printer#hp#
+60#hewlettpackardofficejet##printer#hp#
+55#362c06070c0f16451277##printer#hp#
+55#0603010f0c2c51452b1242439607##printer#hp#
+60#modhplaserjet400mfpm425dn##printer#hp#
+55#0103041743##network equipment#hp#
+55#011c02030f060c2b##network equipment#hp#
+60#colubrisap##network equipment#hp#
+60#hpjetdirect##printer#hp#
+55#01032c06070c0f363a3b457751##printer#hp#
+55#0603010f2c0c##printer#hp#
+60#idracdiscovery###dell, inc.#
+55#01030f062b###dell, inc.#
+55#01030c060f172c2f##printer#kyocera mita corp.#
+60#typmfpmodlexmark##printer#lexmark international, inc.#
+55#01032a0406070c0f1a2c33363a3bbe##printer#lexmark international, inc.#
+55#0103060c0f1c2a282617252c27131a##printer#lexmark international, inc.#
+55#0103042a06070c0f1a2c33363a3bbe##printer#lexmark international, inc.#
+55#0103070c1a2c33363a3bbe##printer#lexmark international, inc.#
+55#0103070c1a2c33363a3b##printer#lexmark international, inc.#
+55#01032a0406070c1a2c33363a3bbe##printer#lexmark international, inc.#
+60#lifesizeroomlsrm1##video conferencing#lifesize communications, inc.#
+55#011c02030f060c2a9d##video conferencing#lifesize communications, inc.#
+60#lifesizeroomlsrm2##video conferencing#lifesize communications, inc.#
+55#350103063336##network equipment#linksys#
+55#01032a06070f3a3b42##voip phone#linksys#
+55#0103060c0f1c##network equipment#linksys#
+55#0103060f1c36##network equipment#linksys#
+55#011c02030f060c0407171a2b323336373c3d##network equipment#linksys#
+55#011c02030f060c0407171a2b323336373c48##network equipment#linksys#
+55#0103060c0f2c2e2f##network equipment#linksys#
+55#010f03062c2e2f##network equipment#linksys#
+55#010f03062c2e2f0103060f2c2e2f##network equipment#linksys#
+55#010f03062c2e2f420103060f2c2e2f##network equipment#linksys#
+55#0f03062c2e2f##network equipment#linksys#
+55#060301##network equipment#linksys#
+60#infomirmag522v2##iptv##
+55#0103060c0f1c2a2b##iptv##
+55#0103060c0f2a2b##voip gateway#mediatrix telecom#
+60#meraki##network equipment#meraki#
+55#0103060c2a2c33363a3b80427881828384858687e08a7d2b##voip phone#mitel corp.#
+60#ipphonemitelcom##voip phone#mitel corp.#
+55#0103060c2a2c33363a3b804278818283848586878a7d2b##voip phone#mitel corp.#
+55#0103060f4645###moneris solutions#
+60#morsewatchmankwtv1##key lock box#morse watchman#
+55#353d0c373cff##key lock box#morse watchman#
+55#0103060f173336##dvr#motorola, inc.#
+55#011c01030604##network equipment#motorola, inc.#
+55#0103060f0c4546582a###netbotz#
+60#nbtz13###netbotz#
+55#0103060c0f11171c1d1f2128292a772b###netbotz#
+60#netbotz420e###netbotz#
+60#wallbotz500###netbotz#
+55#03060f##network equipment#netgear#
+55#0301060f0c##network equipment#netgear#
+55#0103060c0f1c212c79##network equipment#netgear#
+60#fsvdslumanokia6086##phone#nokia#
+55#0c060f01031c78##phone#nokia#
+55#011c0103##voip phone#nortel networks#
+55#333a3b01032b80909dbffb##voip phone#nortel networks#
+55#011c032b8083909dbcbfcddbdfe8f7fb3a3b##voip phone#nortel networks#
+55#011c032b8083909dbcbfcddbdfe8f7fb3a3b42##voip phone#nortel networks#
+60#norteli2004a##voip phone#nortel networks#
+55#4e4f55###novell, inc.#
+55#555657###novell, inc.#
+55#64###novell, inc.#
+55#55###novell, inc.#
+55#5556###novell, inc.#
+55#4e4f###novell, inc.#
+55#4f4e###novell, inc.#
+55#030f06##game console#sony corp.#
+55#01031c060f##game console#sony corp.#
+60#ps3##game console#sony corp.#
+60#ps4##game console#sony corp.#
+60#ps5##game console#sony corp.#
+60#psvita##game console#sony corp.#
+60#udhcp1161##nas#adorama#
+60#polystudiox70##video phone#polycom, inc.#
+55#012103060f1c2a333a3b42a0##video phone#polycom, inc.#
+55#0103060f0c2c##video phone#polycom, inc.#
+55#0601030c2c##video conferencing#polycom, inc.#
+55#0102030407060f##dvr#directv, inc.#
+55#011c##dvr#directv, inc.#
+60#ricohprinter##printer#ricoh co., ltd.#
+55#010203060f1c2a2b2c##network equipment#ruckus#
+60#ruckuscpe##network equipment#ruckus#
+55#011c9c0403422a##voip phone#shoretel, inc.#
+55#010f03062c2e2f42##voip gateway#sipura technology#
+55#01032a06070f3a3b2c429697##voip phone#linksys#
+55#01032a06070f3a3b2c42960297##voip phone#linksys#
+60#linksysspa942##voip phone#linksys#
+60#sunwsunblade100##workstation#sun microsystems, inc.#
+55#0301060c0f43422b##voip gateway#innomedia, inc.#
+60#mta6328r##voip gateway#innomedia, inc.#
+60#s24ap##network equipment#symbol#
+55#0103060c0f2b42438081828384858687##network equipment#symbol#
+60#symbolws##network equipment#symbol#
+55#0103063a3b2c2e2f##printer#tallygenicom lp#
+55#010307##video conferencing#tandberg#
+55#0103060c0f78f2##video conferencing#tandberg#
+55#1c02030f060c##dvr#tivo#
+60#tlsg108e##network equipment#tp-link technologies co., ltd.#
+55#01032b2c2e2f06##network equipment#tp-link technologies co., ltd.#
+60#trapezeap2330##network equipment#trapeze networks#
+60#wirelessapmp422##network equipment#trapeze networks#
+55#0103##printer#trendnet#
+55#011c0605032c0f##network equipment#trendnet#
+55#0605032c0f##network equipment#trendnet#
+55#36333a3b0103060f1c8b##voip phone#unidata communications systems inc.#
+55#010203060f2a##voip gateway#uniden#
+60#udhcp1202##ip network camera#unioncam#
+55#01060f032b##voip phone#utstarcom, inc.#
+60#vizioinc##tv#vizio#
+60#udhcp122##nas#western digital corp.#
+55#0103060f1c21##game console#nintendo co., ltd.#
+55#0103060c0f1c213a3b##game console#nintendo co., ltd.#
+60#udhcp1221##ip network camera#wyze#
+55#0306##game console#microsoft corp.#
+60#msft50xbox##game console#microsoft corp.#
+60#xbox360##game console#microsoft corp.#
+60#xbox10##game console#microsoft corp.#
+55#fc##printer#xerox corp.#
+60#mfgxerox##printer#xerox corp.#
+55#3301033a3b0c2c36060f90##printer#xerox corp.#
+55#011c030f060c2c4e4f##printer#xerox corp.#
+55#011c030f060c2c4e4f4243##printer#xerox corp.#
+55#01031c3a3b060f4e4f2c2e4542430c##printer#xerox corp.#
+55#0c##printer#xerox corp.#
+55#01031c060f2c2e450c51##printer#xerox corp.#
+55#01031c3a3b060f4e4f2c2e450c51##printer#xerox corp.#
+55#01031c3a3b060f4e4f2c2e4542430c51##printer#xerox corp.#
+55#011c033a3b060f4e4f0c2c2e45744243##printer#xerox corp.#
+60#xeroxphaser##printer#xerox corp.#
+55#010203060c0f1a1c555657582c2d2e2f46454e4f78##printer#xerox corp.#
+60#xeroxnetweorkprinter##printer#xerox corp.#
+60#xeroxworkcentre##printer#xerox corp.#
+55#011c030f060c2c4e4f022a##printer#xerox corp.#
+60#modworkcentre7125##printer#xerox corp.#
+60#xovispcsensor##sensor##
+55#010306420f##voip phone#zyxel corp.#
+55#0103061a1c3a3b##game console##
+55#0103060c333a3b##phone#samsung #
+55#01034243367d8196060f64##network equipment#cisco systems, inc.#
+55#01060f2c03212b##network equipment#cisco systems, inc.#
+55#0103060f429623##phone#cisco systems, inc.#
+55#01031c060c0f1a2af278##camera##
+55#011c030f060c2af278422b##camera#cisco systems, inc.#
+55#0103060f2a##camera#cisco systems, inc.#
+55#010f031c0c061a##network equipment#meraki#
+55#010304060c0f1c2a2b3c424394##network equipment#aruba #
+55#010304060c0f1c2a2b42433c##network equipment#aruba #
+55#010304060c0f1c2a2b3c##network equipment#aruba #
+55#0103060f2b3c##network equipment#aruba #
+55#0103060c0f042b2c3c2a1c##network equipment#aruba #
+55#33360103060f##network equipment#juniper network#
+55#33360103060f2c##network equipment#juniper network#
+55#0333010f064243782c##network equipment#juniper network#
+55#01034243363d81060f##network equipment#3com cdsg10pwr (hp 1905-10g-poe) switch#
+55#011c02030f060407171a2b323336373c3d48##network equipment#actiontec wireless broadband router#
+55#0301060f79##network equipment#belkin #
+55#010306##camera#d-link systems, inc.#
+55#01030f06d4##network equipment#linksys#
+55#011c03060f2c##network equipment#linksys#
+55#01032a06070f3a3b2c42##network equipment##
+55#01030c060f4245465f788d97a22b##phone#nec#
+55#01032b2c2e2f062179f9##network equipment#tp-link technologies co., ltd.#
+55#0103060c0f1c2128292a2c##network equipment#trendnet#
+55#0103060c0f1c2128292a2cf9##network equipment#trendnet#
+55#0103060f3a3b##network equipment#wiznet#
+55#0102030406070c0f1c2a42432b6465788485##phone#yealink#
+55#01031c3a3b060f4e4f2c2e450c##printer#xerox corp.#
+55#010203060c0f1a1c555657582c2d2e2f46454e4f##printer#dell, inc.#
+55#010306070c0f12171a2c2e33363a3b4e4f51##printer#dell, inc.#
+55#01032c06070c0f16363a3b45122b7751999a##printer#hp#
+55#01032c06070c0f16363a3b45129077##printer#hp#
+55#01032c06070cfc0f16363a3b45122b7751999a##printer#hp#
+55#01032c0651070c0f16363a3b451290##printer#hp#
+55#011c02030f060c##printer#hp#
+55#0603010f42430d##printer#hp#
+55#0603010f42430d0c##printer#hp#
+55#0603010f42430d2c0c51##printer#hp#
+55#0603010f42430d2c0c51fc##printer#hp#
+55#0603010f0c42430d2c##printer#hp#
+55#0c011c030f062c##printer#hp#
+55#01032c33363a3b0c##printer#boca#
+55#0603010f42430d0c2c022a##printer#brother industries, ltd.#
+55#0603010f42430d2c022a787d0c##printer#brother industries, ltd.#
+55#0103060f45##printer#canon, inc.#
+55#0103060c0f111c28292a##printer#epson#
+55#0103060c0f1c2a2826172527131a##printer#epson#
+55#0103060f2c2e##printer#konica minolta #
+55#01030f2c2e##printer#konica minolta #
+55#01030f062c##printer#kyocera mita corp.#
+55#0103062c0c0f0445462a##printer#océ#
+55#010203060c0f12132e2f36393a3b##printer#panasonic#
+55#0103060c0f1c2c2f##printer#ricoh #
+55#0103060c0f1c2c2fcc##printer#ricoh #
+55#0103060f1c2c2f##printer#ricoh #
+55#010306070c0f12171a2c2e33363a3b4e4f##printer#samsung#
+55#0103060c0f1c2a282617252627131a##printer#star micronics#
+55#01031afc2b2a060c##monitor#samsung#
+55#0103060c0f212a7879##iot#samsung#
+55#01031c2b06#tizen#home appliance#samsung#
+55#01031afc2b2a0f060c##home appliance#samsung#
+55#01031afc2a0f060c#tizen#watch#samsung#
+55#0188299ca7bb170c#tizen#watch#samsung#
+55#0103060f1a1c333a3b2b72#wear os#watch##
+55#01a0d7f371e7560c#tizen#tv#samsung#

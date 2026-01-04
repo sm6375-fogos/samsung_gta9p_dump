@@ -1,0 +1,88 @@
+
+# Note : this file won't be included in GSI
+
+on early-init
+    write /proc/sys/vm/stat_interval 10
+
+on boot
+    write /proc/sys/vm/page-cluster 0
+    write /proc/sys/vm/watermark_boost_factor 0
+    write /proc/sys/vm/compaction_proactiveness 0
+
+    chown root system /sys/block/zram0/writeback_limit
+    chmod 0664 /sys/block/zram0/writeback_limit
+    chown root system /sys/block/zram0/bd_stat
+    chmod 0664 /sys/block/zram0/bd_stat
+
+    # sec_mm nodes
+    chmod 0664 /sys/kernel/sec_mm/mem_boost_mode
+    chown cameraserver system /sys/kernel/sec_mm/mem_boost_mode
+    chmod 0664 /sys/kernel/sec_mm/am_app_launch
+    chown system system /sys/kernel/sec_mm/am_app_launch
+
+    # am_app_launch
+    chmod 0664 /sys/kernel/mm/vmscan/am_app_launch
+    chown system system /sys/kernel/mm/vmscan/am_app_launch
+
+    # zram app_launch
+    chmod 0664 /sys/kernel/zram/app_launch
+    chown system system /sys/kernel/zram/app_launch
+
+    # mem_boost_mode
+    chmod 0664 /sys/kernel/mm/vmscan/mem_boost_mode
+    chown cameraserver system /sys/kernel/mm/vmscan/mem_boost_mode
+
+    # rbin mem_boost_mode
+    chmod 0664 /sys/kernel/rbin/mem_boost_mode
+    chown cameraserver system /sys/kernel/rbin/mem_boost_mode
+
+    # rbin refill_mode
+    chmod 0664 /sys/kernel/rbin/refill_mode
+    chown system system /sys/kernel/rbin/refill_mode
+
+    # make the chimera PSI monitor accessible to others
+    chown system system /proc/pressure/memory
+    chown system system /proc/pressure/cpu
+    chown system system /proc/pressure/io
+    chmod 0664 /proc/pressure/memory
+    chmod 0664 /proc/pressure/cpu
+    chmod 0664 /proc/pressure/io
+
+# Graphics Memory Reclaim (GMR) - QC
+on boot && property:ro.sys.kernelmemory.gmr.enabled=true && property:ro.sys.kernelmemory.gmr.vendor_plugin=kgsl
+    chown root system /sys/class/kgsl/kgsl/max_reclaim_limit
+    chmod 0664 /sys/class/kgsl/kgsl/max_reclaim_limit
+
+# Graphics Memory Reclaim (GMR) - S.LSI
+on boot && property:ro.sys.kernelmemory.gmr.enabled=true && property:ro.sys.kernelmemory.gmr.vendor_plugin=sgpu
+    chown root system /sys/kernel/gpu/sgpu_swap_ctrl
+    chmod 0664 /sys/kernel/gpu/sgpu_swap_ctrl
+
+# Graphics Memory Reclaim (GMR) - MTK
+on boot && property:ro.sys.kernelmemory.gmr.enabled=true && property:ro.sys.kernelmemory.gmr.vendor_plugin=mtk
+    chown root system /sys/class/misc/mali0/device/mem_compr
+    chmod 2755 /sys/class/misc/mali0/device/mem_compr
+
+# CustomEFKManager: watermark_scale_factor
+on property:sys.sysctl.watermark_scale_factor=*
+    write /proc/sys/vm/watermark_scale_factor ${sys.sysctl.watermark_scale_factor}
+
+# Pageboostd
+on property:sys.boot_completed=1
+    mkdir /data/misc/pageboost 0771 system system
+
+on property:sys.sysctl.swappiness=*
+    write /proc/sys/vm/swappiness ${sys.sysctl.swappiness}
+
+# HeimdAll
+on early-init
+    chmod 0777 /dev/memcg
+    chown system system /dev/memcg
+    chown system system /dev/memcg/cgroup.procs
+
+on post-fs-data
+    mkdir /data/heimdall 0770 system system
+
+# Configure MGLRU
+on early-init
+    exec u:r:shell:s0 -- /system/bin/sh /system/bin/init.mglru.sh

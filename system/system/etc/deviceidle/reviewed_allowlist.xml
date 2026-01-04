@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- { DozeRune.DOZE_ALLOWLIST_GATEKEEPER -->
+<config>
+
+    <!-- Allowed : com.samsung.android.offline.languagemodel.chn -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/37017722 -->
+    <reviewed-in-power-save package="com.samsung.android.offline.languagemodel.chn" reason="BackgroundNetwork" />
+
+    <!-- Allowed : com.samsung.android.bixby.wakeup -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36573287 -->
+    <!-- Detail reason for <allow-in-power-save> : except_freeze  -->
+    <reviewed-in-power-save package="com.samsung.android.bixby.wakeup" reason="except_freeze" />
+
+    <!-- Allowed : com.samsung.android.mcfserver -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36225714 -->
+    <!-- Detail reason for <allow-in-power-save> : wifiaware  -->
+    <reviewed-in-power-save package="com.samsung.android.mcfserver" reason="network" />
+
+    <!-- Allowed : com.google.android.syncadapters.calendar -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36114733 -->
+    <!-- Detail reason for <allow-in-power-save> : Calendar sync -->
+    <reviewed-in-power-save package="com.google.android.syncadapters.calendar" reason="sync" />
+
+    <!-- Allowed : com.samsung.android.scloud -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36571965 -->
+    <!-- Detail reason for <allow-in-power-save> : Cloud sync wakelock is disabled due to deep doze -->
+    <reviewed-in-power-save package="com.samsung.android.scloud" reason="sync_wakelock" />
+
+    <!-- Allowed : jp.softbank.* -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36629524 -->
+    <reviewed-in-power-save package="jp.softbank.tether.entitlement" reason="carrier" />
+    <reviewed-in-power-save package="jp.softbank.mb.parentalcontrols" reason="carrier" />
+    <reviewed-in-power-save package="jp.softbank.mb.plusmessage" reason="carrier" />
+
+    <!-- Allowed : com.samsung.android.audiomirroring -->
+    <!-- Reviewed link : https://mobilerndhub.sec.samsung.net/hub/site/plop/board/doze_allow_list_review/view/36674245 -->
+    <reviewed-in-power-save package="com.samsung.android.audiomirroring" reason="BackgroundServiceStartNotAllowedException" />
+
+    <!-- Total(below) : 309 -->
+    <!-- Nothing from Q OS - CSC (except below) -->
+
+    <!-- Total(below) : 309 -->
+    <!-- Add 17 packages from Q OS - MAIN (except below) -->
+    <reviewed-in-power-save package="com.google.android.volta" />
+    <reviewed-in-power-save package="com.samsung.android.app.aodservice" />
+    <reviewed-in-power-save package="com.samsung.android.esnagent" />
+    <reviewed-in-power-save package="com.samsung.android.lool" />
+    <reviewed-in-power-save package="com.samsung.android.sptt" />
+    <reviewed-in-power-save package="com.samsung.android.wechatwifiservice" />
+    <reviewed-in-power-save package="com.samsung.app.highlightplayer" />
+    <reviewed-in-power-save package="com.samsung.sait.sohservice" />
+    <reviewed-in-power-save package="com.samsung.tmovvm" />
+    <reviewed-in-power-save package="com.sec.android.app.ve.vebgm" />
+    <reviewed-in-power-save package="com.sec.android.cover.ledcover" />
+    <reviewed-in-power-save package="com.sec.android.inputmethod" />
+    <reviewed-in-power-save package="com.sec.android.service.lted2d.lib.service" />
+    <reviewed-in-power-save package="com.sec.android.splitsound" />
+    <reviewed-in-power-save package="com.sec.devicereporting" />
+    <reviewed-in-power-save package="com.sec.offnetservice" />
+    <reviewed-in-power-save package="com.tmobile.pr.mytmobile" />
+
+    <!-- Total(below) : 292 -->
+    <!-- Add 3 packages from R OS - CSC (except below) -->
+    <reviewed-in-power-save package="com.safrangroup.ed.felin.apifelin" />
+    <reviewed-in-power-save package="cv.sitic.tg" />
+    <reviewed-in-power-save package="net.atos.sicsd.product" />
+
+    <!-- Total(below) : 289 -->
+    <!-- Add 18 packages from R OS - MAIN (except below) -->
+    <reviewed-in-power-save package="com.android.mtp" />
+    <reviewed-in-power-save package="com.nttdocomo.android.offhostcontrol" />
+    <reviewed-in-power-save package="com.qti.ltebc" />
+    <reviewed-in-power-save package="com.samsung.android.app.si" />
+    <reviewed-in-power-save package="com.samsung.android.app.telephonyui" />
+    <reviewed-in-power-save package="com.samsung.android.game.gamehome" />
+    <reviewed-in-power-save package="com.samsung.android.hdmapp" />
+    <reviewed-in-power-save package="com.samsung.android.knox.attestation" />
+    <reviewed-in-power-save package="com.samsung.android.knox.pushmanager" />
+    <reviewed-in-power-save package="com.samsung.android.smartmirroring" />
+    <reviewed-in-power-save package="com.samsung.cmh" />
+    <reviewed-in-power-save package="com.samsung.sdm" />
+    <reviewed-in-power-save package="com.samsung.unifiedtp" />
+    <reviewed-in-power-save package="com.sec.android.app.ewidgetatt" />
+    <reviewed-in-power-save package="com.sec.android.app.ringtoneBR" />
+    <reviewed-in-power-save package="com.sec.android.mec.mecagent" />
+    <reviewed-in-power-save package="com.sec.enterprise.knox.attestation" />
+    <reviewed-in-power-save package="com.telecomsys.directedsms.android.SCG" />
+
+    <!-- Total(below) : 271 -->
+    <!-- Add 2 packages from S OS - CSC (except below) -->
+    <reviewed-in-power-save package="com.altice.android.myapps" />
+    <reviewed-in-power-save package="com.sfr.android.sfrjeux" />
+
+    <!-- Total(below) : 269 -->
+    <!-- Nothing from S OS - VENDOR (except below) -->
+
+    <!-- Total(below) : 269 -->
+    <!-- Add 22 packages from S OS - MAIN (except below) -->
+    <reviewed-in-power-save package="com.facebook.appmanager" />
+    <reviewed-in-power-save package="com.kddi.android.au_wifi_connect2" />
+    <reviewed-in-power-save package="com.kddi.android.btdun" />
+    <reviewed-in-power-save package="com.kddi.familysmile.jcom" />
+    <reviewed-in-power-save package="com.kddi.familysmile.mvno" />
+    <reviewed-in-power-save package="com.nttdocomo.android.atf" />
+    <reviewed-in-power-save package="com.qualcomm.ltebc_vzw" />
+    <reviewed-in-power-save package="com.samsung.android.app.dtv.dmb" />
+    <reviewed-in-power-save package="com.samsung.android.app.dtv.sbtvd" />
+    <reviewed-in-power-save package="com.samsung.android.cidmanager" />
+    <reviewed-in-power-save package="com.samsung.android.email.provider" />
+    <reviewed-in-power-save package="com.samsung.android.knox.dai" />
+    <reviewed-in-power-save package="com.samsung.android.kpm.brisk" />
+    <reviewed-in-power-save package="com.samsung.android.samsungnetworklocation" />
+    <reviewed-in-power-save package="com.samsung.android.secsoundpicker" />
+    <reviewed-in-power-save package="com.samsung.attvvm" />
+    <reviewed-in-power-save package="com.samsung.knox.securefolder" />
+    <reviewed-in-power-save package="com.samsung.qosindicator" />
+    <reviewed-in-power-save package="com.samsung.vvm.se" />
+    <reviewed-in-power-save package="com.sonyericsson.android.drm.drmlicenseservice" />
+    <reviewed-in-power-save package="com.synchronoss.dcs.att.r2g" />
+    <reviewed-in-power-save package="jp.uqmobile.uqmobileportalapp" />
+
+    <!-- Total(below) : 247 -->
+    <!-- Nothing from T OS - VENDOR / CSC (except below) -->
+
+    <!-- Total(below) : 247 -->
+    <!-- Add 18 packages from T OS - MAIN (except below) -->
+    <reviewed-in-power-save package="com.amap.android.location" />
+    <reviewed-in-power-save package="com.att.callprotect" />
+    <reviewed-in-power-save package="com.kddi.android.auinitialsetting" />
+    <reviewed-in-power-save package="com.kddi.android.mamoru" />
+    <reviewed-in-power-save package="com.kddi.disasterapp" />
+    <reviewed-in-power-save package="com.kddi.market" />
+    <reviewed-in-power-save package="com.kddi.selfcare.client" />
+    <reviewed-in-power-save package="com.nttdocomo.android.pf.dcmwappush" />
+    <reviewed-in-power-save package="com.nttdocomo.android.phonemotion" />
+    <reviewed-in-power-save package="com.samsung.android.chnfileshare.kit" />
+    <reviewed-in-power-save package="com.samsung.android.privateshare" />
+    <reviewed-in-power-save package="com.samsung.android.tencentwifisecurity" />
+    <reviewed-in-power-save package="com.sec.android.app.itracker" />
+    <reviewed-in-power-save package="com.sgmc.phonenumberlocatorservice" />
+    <reviewed-in-power-save package="com.tencent.android.location" />
+    <reviewed-in-power-save package="com.vzw.apnservice" />
+    <reviewed-in-power-save package="jp.co.optim.oru" />
+    <reviewed-in-power-save package="jp.netstar.familysmile" />
+
+    <!-- Total(below) : 229 -->
+    <!-- Nothing from V OS - VENDOR / CSC (except below) 2024/06/17 -->
+
+    <!-- Total(below) : 229 -->
+    <!-- Add 3 packages from V OS - MAIN (except below(U OS)) -->
+    <reviewed-in-power-save package="com.android.devicelockcontroller" />
+    <reviewed-in-power-save package="com.google.android.apps.carrier.carrierwifi" />
+    <reviewed-in-power-save package="com.samsung.android.hwresourceshare.storage" />
+
+    <!-- Total(below) : 226 -->
+    <!-- Add 23 packages from U OS - CSC (except MAIN/VENDOR) -->
+    <reviewed-in-power-save package="co.sitic.pp" />
+    <reviewed-in-power-save package="com.altice.android.myapps.samsung" />
+    <reviewed-in-power-save package="com.applovin.array.apphub.samsung" />
+    <reviewed-in-power-save package="com.aura.oobe.samsung" />
+    <reviewed-in-power-save package="com.claroColombia.contenedor" />
+    <reviewed-in-power-save package="com.dti.amx" />
+    <reviewed-in-power-save package="com.dti.aone" />
+    <reviewed-in-power-save package="com.dti.attmx" />
+    <reviewed-in-power-save package="com.dti.bouyguestelecom" />
+    <reviewed-in-power-save package="com.dti.globe" />
+    <reviewed-in-power-save package="com.dti.millicom" />
+    <reviewed-in-power-save package="com.dti.samsung" />
+    <reviewed-in-power-save package="com.dti.telefonica" />
+    <reviewed-in-power-save package="com.dti.tim" />
+    <reviewed-in-power-save package="com.ironsource.appcloud.oobe.hutchison" />
+    <reviewed-in-power-save package="com.orange.update" />
+    <reviewed-in-power-save package="com.samsung.android.aliveprivacy" />
+    <reviewed-in-power-save package="com.sfr.android.sfrjeux.samsung" />
+    <reviewed-in-power-save package="com.srph.emergency321" />
+    <reviewed-in-power-save package="com.telcel.contenedor" />
+    <reviewed-in-power-save package="com.tims.rt" />
+    <reviewed-in-power-save package="com.wizway.nfcagent" />
+    <reviewed-in-power-save package="de.telekom.tsc" />
+
+    <!-- Total(below) : 203 -->
+    <!-- Add 1 package from U OS - VENDOR (except MAIN) -->
+    <reviewed-in-power-save package="com.qualcomm.location.XT" />
+
+    <!-- Total(below) : 202 -->
+    <!-- Add 202 packages from U OS - MAIN -->
+    <reviewed-in-power-save package="com.android.cellbroadcastreceiver" />
+    <reviewed-in-power-save package="com.android.cellbroadcastreceiver.module" />
+    <reviewed-in-power-save package="com.android.email" />
+    <reviewed-in-power-save package="com.android.emergency" />
+    <reviewed-in-power-save package="com.android.exchange" />
+    <reviewed-in-power-save package="com.android.managedprovisioning" />
+    <reviewed-in-power-save package="com.android.mms" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Calendar provider needs alarms while in idle -->
+    <reviewed-in-power-save package="com.android.providers.calendar" reason="doze" />
+
+    <reviewed-in-power-save package="com.android.providers.downloads" />
+    <reviewed-in-power-save package="com.android.shell" />
+    <reviewed-in-power-save package="com.android.smspush" />
+    <reviewed-in-power-save package="com.android.systemui" />
+    <reviewed-in-power-save package="com.att.android.attsmartwifi" />
+    <reviewed-in-power-save package="com.att.dh" />
+    <reviewed-in-power-save package="com.att.iqi" />
+    <reviewed-in-power-save package="com.aura.jet.att" />
+    <reviewed-in-power-save package="com.aura.oobe.att" />
+    <reviewed-in-power-save package="com.aura.oobe.dish" />
+    <reviewed-in-power-save package="com.aura.oobe.samsung.gl" />
+    <reviewed-in-power-save package="com.baidu.map.location" />
+    <reviewed-in-power-save package="com.coremobility.app.vnotes" />
+    <reviewed-in-power-save package="com.customermobile.preload.vzw" />
+    <reviewed-in-power-save package="com.dish.vvm" />
+    <reviewed-in-power-save package="com.dish.wireless.activation" />
+    <reviewed-in-power-save package="com.dish.wireless.carrierapp" />
+    <reviewed-in-power-save package="com.dish.wireless.installer" />
+    <reviewed-in-power-save package="com.dti.att" />
+    <reviewed-in-power-save package="com.dti.cricket" />
+    <reviewed-in-power-save package="com.dti.tracfone" />
+    <reviewed-in-power-save package="com.expway.embmsserver" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.facebook.services" />
+
+    <reviewed-in-power-save package="com.felicanetworks.mfc" />
+    <reviewed-in-power-save package="com.felicanetworks.mfm.main" />
+    <reviewed-in-power-save package="com.google.ambient.streaming" />
+    <reviewed-in-power-save package="com.google.android.aicore" />
+    <reviewed-in-power-save package="com.google.android.apps.safetyhub" />
+    <reviewed-in-power-save package="com.google.android.apps.scone" />
+    <reviewed-in-power-save package="com.google.android.cellbroadcastreceiver" />
+    <reviewed-in-power-save package="com.google.android.gms" />
+    <reviewed-in-power-save package="com.google.android.ims" />
+    <reviewed-in-power-save package="com.ironsource.appcloud.oobe" />
+    <reviewed-in-power-save package="com.ironsrc.aura.tmo" />
+    <reviewed-in-power-save package="com.kddi.android.cmail" />
+    <reviewed-in-power-save package="com.kddi.cs.app001" />
+    <reviewed-in-power-save package="com.kt.olleh.servicemenu" />
+    <reviewed-in-power-save package="com.kt.olleh.storefront" />
+    <reviewed-in-power-save package="com.kt.serviceagent" />
+    <reviewed-in-power-save package="com.ktpns.pa" />
+    <reviewed-in-power-save package="com.lguplus.appstore" />
+    <reviewed-in-power-save package="com.lguplus.lgugpsnwps" />
+    <reviewed-in-power-save package="com.LogiaGroup.LogiaDeck" />
+    <reviewed-in-power-save package="com.metropcs.metrozone" />
+    <reviewed-in-power-save package="com.microsoft.appmanager" />
+    <reviewed-in-power-save package="com.nttdocomo.android.anmane2" />
+    <reviewed-in-power-save package="com.nttdocomo.android.anshinsecurity" />
+    <reviewed-in-power-save package="com.nttdocomo.android.applicationmanager" />
+    <reviewed-in-power-save package="com.nttdocomo.android.felicaremotelock" />
+    <reviewed-in-power-save package="com.nttdocomo.android.idmanager" />
+    <reviewed-in-power-save package="com.nttdocomo.android.mascot" />
+    <reviewed-in-power-save package="com.nttdocomo.android.msg" />
+    <reviewed-in-power-save package="com.nttdocomo.android.pf.dcmippushaggregator" />
+    <reviewed-in-power-save package="com.nttdocomo.android.remotelock" />
+    <reviewed-in-power-save package="com.nttdocomo.android.wipe" />
+    <reviewed-in-power-save package="com.osp.app.signin" />
+    <reviewed-in-power-save package="com.qti.xdivert" />
+    <reviewed-in-power-save package="com.qualcomm.atfwd" />
+    <reviewed-in-power-save package="com.qualcomm.location" />
+    <reviewed-in-power-save package="com.qualcomm.qcrilmsgtunnel" />
+    <reviewed-in-power-save package="com.qualcomm.qti.autoregistration" />
+    <reviewed-in-power-save package="com.qualcomm.qti.callenhancement" />
+    <reviewed-in-power-save package="com.qualcomm.qti.gsma.services.nfc" />
+    <reviewed-in-power-save package="com.qualcomm.qti.ims" />
+    <reviewed-in-power-save package="com.qualcomm.qti.radioconfiginterface" />
+    <reviewed-in-power-save package="com.qualcomm.qti.server.wigigapp" />
+    <reviewed-in-power-save package="com.qualcomm.qti.smartassistant" />
+    <reviewed-in-power-save package="com.qualcomm.qti.StatsPollManager" />
+    <reviewed-in-power-save package="com.qualcomm.qti.telephonyservice" />
+    <reviewed-in-power-save package="com.qualcomm.qti.uceShimService" />
+    <reviewed-in-power-save package="com.qualcomm.simcontacts" />
+    <reviewed-in-power-save package="com.quicinc.voice.activation" />
+    <reviewed-in-power-save package="com.samsung.adaptivebrightnessgo" />
+    <reviewed-in-power-save package="com.samsung.android.allshare.service.fileshare" />
+    <reviewed-in-power-save package="com.samsung.android.allshare.service.mediashare" />
+    <reviewed-in-power-save package="com.samsung.android.app.appsedge" />
+    <reviewed-in-power-save package="com.samsung.android.app.cocktailbarservice" />
+    <reviewed-in-power-save package="com.samsung.android.app.contacts" />
+    <reviewed-in-power-save package="com.samsung.android.app.galaxyfinder" />
+    <reviewed-in-power-save package="com.samsung.android.app.interpreter" />
+    <reviewed-in-power-save package="com.samsung.android.app.ledbackcover" />
+    <reviewed-in-power-save package="com.samsung.android.app.ledcoverdream" />
+    <reviewed-in-power-save package="com.samsung.android.app.notes" />
+    <reviewed-in-power-save package="com.samsung.android.app.parentalcare" />
+    <reviewed-in-power-save package="com.samsung.android.app.reminder" />
+    <reviewed-in-power-save package="com.samsung.android.app.routines" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.samsung.android.app.sharelive" />
+    
+    <reviewed-in-power-save package="com.samsung.android.app.smartcapture" />
+    <reviewed-in-power-save package="com.samsung.android.app.updatecenter" />
+    <reviewed-in-power-save package="com.samsung.android.authfw" />
+    <reviewed-in-power-save package="com.samsung.android.aware.service" />
+    <reviewed-in-power-save package="com.samsung.android.beaconmanager" />
+    <reviewed-in-power-save package="com.samsung.android.bixby.agent" />
+    <reviewed-in-power-save package="com.samsung.android.bixbytouch" />
+    <reviewed-in-power-save package="com.samsung.android.bluelightfilter" />
+    <reviewed-in-power-save package="com.samsung.android.callassistant" />
+    <reviewed-in-power-save package="com.samsung.android.dbsc" />
+    <reviewed-in-power-save package="com.samsung.android.deviceidservice" />
+    <reviewed-in-power-save package="com.samsung.android.dialer" />
+    <reviewed-in-power-save package="com.samsung.android.earthquakewarning" />
+    <reviewed-in-power-save package="com.samsung.android.easysetup" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.samsung.android.fast" />
+
+    <reviewed-in-power-save package="com.samsung.android.forest" />
+    <reviewed-in-power-save package="com.samsung.android.game.gametools" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.samsung.android.game.gos" />
+
+    <reviewed-in-power-save package="com.samsung.android.hwresourceshare" />
+    <reviewed-in-power-save package="com.samsung.android.inputshare" />
+    <reviewed-in-power-save package="com.samsung.android.intellivoiceservice" />
+    <reviewed-in-power-save package="com.samsung.android.kgclient" />
+    <reviewed-in-power-save package="com.samsung.android.sia" />
+    <reviewed-in-power-save package="com.samsung.android.kmxservice" />
+    <reviewed-in-power-save package="com.samsung.android.knox.analytics.uploader" />
+    <reviewed-in-power-save package="com.samsung.android.knox.containercore" />
+    <reviewed-in-power-save package="com.samsung.android.ledcasesuit" />
+    <reviewed-in-power-save package="com.samsung.android.mcfds" />
+    <reviewed-in-power-save package="com.samsung.android.mdm" />
+    <reviewed-in-power-save package="com.samsung.android.mdx" />
+    <reviewed-in-power-save package="com.samsung.android.mdx.kit" />
+    <reviewed-in-power-save package="com.samsung.android.messaging" />
+    <reviewed-in-power-save package="com.samsung.android.messaging.extension.chn" />
+    <reviewed-in-power-save package="com.samsung.android.minormode" />
+    <reviewed-in-power-save package="com.samsung.android.mobileservice" />
+    <reviewed-in-power-save package="com.samsung.android.pushservice" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.samsung.android.rubin.app" />
+
+    <reviewed-in-power-save package="com.samsung.android.samsungpass" />
+    <reviewed-in-power-save package="com.samsung.android.scs" />
+    <reviewed-in-power-save package="com.samsung.android.sdk.handwriting" />
+    <reviewed-in-power-save package="com.samsung.android.sdm.config" />
+    <reviewed-in-power-save package="com.samsung.android.server.wifi.mobilewips" />
+    <reviewed-in-power-save package="com.samsung.android.service.aircommand" />
+    <reviewed-in-power-save package="com.samsung.android.service.airviewdictionary" />
+    <reviewed-in-power-save package="com.samsung.android.service.peoplestripe" />
+    <reviewed-in-power-save package="com.samsung.android.service.stplatform" />
+    <reviewed-in-power-save package="com.samsung.android.settingshelper" />
+    <reviewed-in-power-save package="com.samsung.android.sm.devicesecurity" />
+    <reviewed-in-power-save package="com.samsung.android.sm.devicesecurity.tcm" />
+    
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.samsung.android.smartsuggestions" />
+
+    <reviewed-in-power-save package="com.samsung.android.video" />
+    <reviewed-in-power-save package="com.samsung.felicalock" />
+    <reviewed-in-power-save package="com.samsung.kdiremotelock" />
+    <reviewed-in-power-save package="com.samsung.klmsagent" />
+    <reviewed-in-power-save package="com.samsung.preloadapp" />
+    <reviewed-in-power-save package="com.samsung.sec.android.application.csc" />
+    <reviewed-in-power-save package="com.samsung.ssu" />
+    <reviewed-in-power-save package="com.samsung.unifiedsettingservice" />
+    <reviewed-in-power-save package="com.samsung.usbyod" />
+    <reviewed-in-power-save package="com.samsung.vvm" />
+    <reviewed-in-power-save package="com.sec.android.app.clockpackage" />
+    <reviewed-in-power-save package="com.sec.android.app.safetyassurance" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.sec.android.app.samsungapps" />
+
+    <reviewed-in-power-save package="com.sec.android.app.voicenote" />
+    <reviewed-in-power-save package="com.sec.android.daemonapp" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.sec.android.easyMover" />
+
+    <reviewed-in-power-save package="com.sec.android.easyonehand" />
+    <reviewed-in-power-save package="com.sec.android.widgetapp.easymodecontactswidget" />
+    <reviewed-in-power-save package="com.sec.clocationservice" />
+    <reviewed-in-power-save package="com.sec.enterprise.knox.cloudmdm.smdms" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.sec.imsservice" />
+
+    <reviewed-in-power-save package="com.sec.spp.push" />
+    <reviewed-in-power-save package="com.sec.tasmanager" />
+
+    <!-- Review link : none -->
+    <!-- Detail reason for <allow-in-power-save> : Anomaly detected -->
+    <reviewed-in-power-save package="com.sec.unifiedwfc" />
+
+    <reviewed-in-power-save package="com.sec.vsim.ericssonnsds.webapp" />
+    <reviewed-in-power-save package="com.securityandprivacy.android.verizon.vms" />
+    <reviewed-in-power-save package="com.skt.hps20client" />
+    <reviewed-in-power-save package="com.skt.prod.dialer" />
+    <reviewed-in-power-save package="com.skt.skaf.A000Z00040" />
+    <reviewed-in-power-save package="com.skt.skaf.OA00018282" />
+    <reviewed-in-power-save package="com.skt.skaf.OA00199800" />
+    <reviewed-in-power-save package="com.sktelecom.minit" />
+    <reviewed-in-power-save package="com.spectrum.cm.headless" />
+    <reviewed-in-power-save package="com.sprint.ce.updater" />
+    <reviewed-in-power-save package="com.sprint.ecid" />
+    <reviewed-in-power-save package="com.sprint.ms.cdm" />
+    <reviewed-in-power-save package="com.sprint.ms.smf.services" />
+    <reviewed-in-power-save package="com.sprint.w.installer" />
+    <reviewed-in-power-save package="com.tmobile.dm.cm" />
+    <reviewed-in-power-save package="com.tmobile.dm.ms.services" />
+    <reviewed-in-power-save package="com.tmobile.echolocate" />
+    <reviewed-in-power-save package="com.tmobile.pr.adapt" />
+    <reviewed-in-power-save package="com.tms" />
+    <reviewed-in-power-save package="com.vcast.mediamanager" />
+    <reviewed-in-power-save package="com.verizon.llkagent" />
+    <reviewed-in-power-save package="com.verizon.loginengine.unbranded" />
+    <reviewed-in-power-save package="com.verizon.messaging.vzmsgs" />
+    <reviewed-in-power-save package="com.verizon.mips.services" />
+    <reviewed-in-power-save package="com.vzw.ecid" />
+    <reviewed-in-power-save package="com.vzw.hss.myverizon" />
+    <reviewed-in-power-save package="com.xfinitymobile.cometcarrierservice" />
+    <reviewed-in-power-save package="jp.co.nttdocomo.anshinmode" />
+    <reviewed-in-power-save package="jp.co.nttdocomo.bridgelauncher" />
+    <reviewed-in-power-save package="jp.co.nttdocomo.carriermail" />
+    <reviewed-in-power-save package="jp.co.nttdocomo.lcsapp" />
+    <reviewed-in-power-save package="jp.co.nttdocomo.saigaiban" />
+    <reviewed-in-power-save package="jp.co.rakuten.mobile.rcs" />
+    <reviewed-in-power-save package="org.ifaa.aidl.manager" />
+
+</config>
+<!-- DozeRune.DOZE_ALLOWLIST_GATEKEEPER } -->

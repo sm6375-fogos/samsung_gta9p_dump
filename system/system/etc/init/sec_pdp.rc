@@ -1,0 +1,31 @@
+# PDP : Preloaded-Data preservation
+
+on property:sys.pdp.action=postfsdata_done
+    pdp_bnr prepare_fbe
+    pdp_bnr restore
+    pdp_sub papps_cp
+    pdp_bnr chk_apk
+    pdp_bnr backup
+    pdp_bnr selinux_label
+
+
+on property:sys.pdp.action=cekeyunlock
+    pdp_sub media
+
+on property:sys.pdp.action=setupwizard_finish
+    pdp_bnr suw_finish
+
+on property:persist.sys.setupwizard=FINISH
+    pdp_bnr remove
+
+on property:sys.boot_completed=1
+    pdp_bnr result
+
+on property:sys.boot_completed=1 && property:sys.pdp.action=at_backup_req
+    pdp_bnr at_backup
+
+on property:sys.boot_completed=1 && property:sys.pdp.action=at_remove_bkup
+    pdp_bnr at_remove_bkup
+
+on property:sys.boot_completed=1 && property:sys.pdp.action=at_check_bkup
+    pdp_bnr at_check_bkup

@@ -1,0 +1,8 @@
+# If for some unexpected trade-in mode fails to activate in adbd, eg setcon()
+# fails, then it will set persist.adb.tradeinmode to -1. On userdebug builds
+# this is fine, since init will restart adbd and go back to normal shell mode.
+#
+# On user builds, however, we don't want adbd to accidentally fall back, so
+# we explicitly stop adbd on failure.
+on property:persist.adb.tradeinmode=-1 && property:ro.debuggable=0
+    stop adbd

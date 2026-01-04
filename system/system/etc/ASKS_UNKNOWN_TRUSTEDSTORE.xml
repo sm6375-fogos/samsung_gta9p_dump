@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20250928"/>
+<LIST>
+    <package value="com.skt.skaf.A000Z00040">
+        <CERT name="77e88a40cb954b2b409bd54199106918b599c116cd51d31a2c7eb7743f56e33a"/>
+    </package>
+    <package value="com.kt.olleh.storefront">
+        <CERT name="6ddeb59a607b3a029af8879bedd0cc11256feda42c7af9f8e61bae55dea7b599"/>
+    </package>
+    <package value="com.lguplus.appstore">
+        <CERT name="563028dc236b4e2c818bbd9080255d44efe094f5aef23287988c20b3f1acf7f3"/>
+    </package>
+    <package value="ALL">
+        <CERT name="34df0e7a9f1cf1892e45c056b4973cd81ccf148a4050d11aea4ac5a65f900a42"/>
+        <CERT name="0a012131b1bdf9e80ef97d37f3b48362be363a464c8445ecf83627ebe8493a1e"/>
+    </package>
+    <package value="PrePackageInstaller">
+        <CERT name="null"/>
+    </package>
+    <package value="PERMISSION">
+        <CERT name="android.permission.INSTALL_PACKAGES"/>
+    </package>
+    <!-- SDS -->
+    <package value="6fa7c67e5c76186fac60b76e3ee3dfc90180bade9a7eafa339d5f5a14a33cc50">
+        <CERT name="3330d41946adf55289d57bfc14198fdabb6ce9ffb92b84452d53e6c57c3a8296"/>
+    </package>
+    <package value="83e172308bf1e628fb191d37c2b28f55b4c73db77398c5e4506b77d454a9becf">
+        <CERT name="3330d41946adf55289d57bfc14198fdabb6ce9ffb92b84452d53e6c57c3a8296"/>
+    </package>
+    <package value="7e871083e65c5eaa316c1d5b817ae646652d22a7ce6867577428250dcfa21a34">
+        <CERT name="3330d41946adf55289d57bfc14198fdabb6ce9ffb92b84452d53e6c57c3a8296"/>
+    </package>
+    <package value="1131e4ae2cce4132af6b637b4846d644bafdbe130e871b902abc5cdbcc7b6af3">
+        <CERT name="3330d41946adf55289d57bfc14198fdabb6ce9ffb92b84452d53e6c57c3a8296"/>
+    </package>
+    <package value="d5c71b1f96f76ab9a18aab2f1d03d54d8122cf91ef825674b877900eba7dbe3d">
+        <CERT name="25683c04b0e46c33fa18f56ad80b9818ca939184cdd37e0a8b2f2248756a8dd4"/>
+    </package>
+    <package value="3b70f69c8ca890d7b2158fc3e3b4fbb7b4ea7395b05bdb70dc648cb654a4a810">
+        <CERT name="b65b3f2c39faff53dba5ca1ebb9605c2d674c8af0ee30bcaf9078cf9b838fe37"/>
+    </package>
+    <package value="95a6a51c8f91fbab4ab12142f55a71d03241154dec77fa27400fb4aab7986647">
+        <CERT name="8027d96fac7948a04b4cd0fd87f3abd77aed0d50c82a153cadbf6f37938ce23b"/>
+    </package>
+    <!-- SDS END -->
+    <!-- request_installer -->
+    <package value="0e7f9c88f77bb763fa92889f6814456fd9e7bdce2d89b2673c3a5a70002d3617">
+        <CERT name="9c286b8beb45a6bc2642e2e52255c7f892573a7d5da7cb4598c419a46e898d36"/>
+    </package>
+    <package value="f8a00afbd52bd9b9d02a2f70f41523d70b04eb502283ef3df02359470003e43f">
+        <CERT name="0fe4ff85c215918396dadc7cd8ce6963339af33d37751a56e54c7206b63a3c7c"/>
+    </package>
+    <package value="eee4bc46aae70838af8d4bcd00e9f1b01a970139199520ce64a984dfc87ee7c3">
+        <CERT name="ea6e97ad6c34f7039a9c6daba732c97d0e098e83ede2b4d52c76eb0184ac7a38"/>
+    </package>
+    <package value="1ee91bd9173e75e19a7900c7a45a24a018b9e92187cc943d77fff8d5addf592c">
+        <CERT name="5814b77c4187312703dc3e1e5bbdcb798b0b681872653e634665ca504dc28633"/>
+    </package>
+    <package value="621fea8c6f0d3e9f79cccce996666db102088766de4ab02ff6bc13d6363af49a">
+        <CERT name="d8a4db56b7ebc39fe5f3004215f0e0decb43b9cfcbe9b2d948383fedd434e7d9"/>
+    </package>
+    <package value="940288a4c7aec01e1b4c180b1feefbbaff1455c2183dd0a23102f9167f4277c9">
+        <CERT name="d0cc12cd7c250ff62b6c21580be8be276760ca09c7507dc791c56a3fb9b887de"/>
+    </package>
+    <package value="28657eaa8234dff3e28201fd294f249af4118f4b8814077b3ee551868644a48b">
+        <CERT name="d0b3f1050b846f806ee677c52faf314ecf39a30b4750adb410a6f93afef2d444"/>
+    </package>
+    <package value="5317671ffd382824fae55947746289d5e76a3a158c325f49b0f11e94747eed0e">
+        <CERT name="1eca870138801e6f094655c630cb4cbc270d63ff7678e719f0e8bef0be490a2e"/>
+    </package>
+    <package value="107065a3555c72290143d695495728dfae1e3c83a1e49e03ac9ed745f636ae70">
+        <CERT name="5fc0dc0af2a9332f7b9b58ced174d9c80cc3aa2a9734045f85d56af9632ae3e3"/>
+    </package>
+    <package value="c678767e0cdbaddfc7e58fb1d824eec89d5713da58a03a1b9800c9853f6081b6">
+        <CERT name="403be6e35885275231f6548e94f0c68a3ffba5ef2522e1fce57f633dc3f4c0fb"/>
+    </package>
+    <package value="81356656ac444ad7f8441ad9f87f6be61593e06ab00b09144bee28d90a80760d">
+        <CERT name="bf3db8c6cbbf11104eb62fc20e9dfb27b37445d84bdb529241ed498b0044fa1e"/>
+    </package>
+    <package value="7213394957a6879afa056e9eeaf8b08fab4413d764d5b867b4d8c1c339d4c547">
+        <CERT name="66896ae0aae48b9e963a3e034fa2ca813ca2f661f53619a92263a8a5c2e3f388"/>
+    </package>
+    <package value="6842ad8f92ffd08402fb3868fceff60e139bafa1321ee432994fea174e96cc0c">
+        <CERT name="0ed64a2e6db3992dda394693cefe8e0c30b160720d0fb183b9b7fe68f0d7d380"/>
+    </package>
+    <package value="122fa272b76187b8b8487bf282a8c4209ddffe0e6f69776a685beeb3c142d697">
+        <CERT name="a6ef817bfd6c083442a149856e51036f6912c2db6b6009db8127cdd641e295a9"/>
+    </package>
+    <package value="8eca6546145c415a0f2f092d564df2d127590ea9e972858f6b00e0ad5ac316b2">
+        <CERT name="a6ef817bfd6c083442a149856e51036f6912c2db6b6009db8127cdd641e295a9"/>
+    </package>
+    <package value="06742c0ff83aff56b4241a5d88332898f5fa2365570a86b8f14a8ec301a4facd">
+        <CERT name="a6ef817bfd6c083442a149856e51036f6912c2db6b6009db8127cdd641e295a9"/>
+    </package>
+    <package value="6aa6a29bfd3a01c0b591cb918817c3fbf39335dce6b5e712fd2eb2e1c2bc9af1">
+        <CERT name="a6ef817bfd6c083442a149856e51036f6912c2db6b6009db8127cdd641e295a9"/>
+    </package>
+    <package value="db00fded2d02542e7db5717c0df933dfff96e043bd4c19d5915cdea7288c55df">
+        <CERT name="4fd67062300d3d9d6c384f7e4e512df4a9a32d165fcb3526428c8e9e3d4e44b7"/>
+    </package>
+    <package value="d6ef2626adfa6bfe2553c6d1a2922c9cd1ca420f62135a2ce327ff12cc4a6b35">
+        <CERT name="5182ae3b1b85337bb182cf24882449f84447ded18e296a747a9f6a0a2622512e"/>
+    </package>
+    <package value="b30c21a62a9ab9ceb31d535012c6a90f20431b1ad6a237353bcbe5a5066a6a4b">
+        <CERT name="1bb6854e6a5dac4c08afde8167ac513bc994d9e7775a795c8b882fded334fe9e"/>
+    </package>
+    <!-- request_installer END -->
+    <package value="fdfd12d42bb44a10830bae8a72eaed7c34d7e9d3baf7abbd9cb280453f853e89">
+        <CERT name="2a7cf95331910da3965710e9b3173d7ef6b16034d4e75aa77eb71219b765a30a"/>
+    </package>
+    <package value="0f3926032665e20035f3b9ad42e4db2f674fc94dca0b1e813edfcd5e86dac3c3">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="079059f6ecdb52f313acb634aa3aa60e92707c24375a291322ec7b409233c261">
+        <CERT name="45e7ed496de0e6abad21854e1431e6bfb44a43dd1afe5d15a48d8d68291b2ea3"/>
+    </package>
+    <package value="94c6cc7708c27d13f5ac8853e54059f64da2ee7eddb6f81625e500fbe3ba236f">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="16556ce63286c3c428c61b5352d554c0f2e2411d751cbf431c1d22b241dccbf7">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="0e0a810a2164709ebf1124a725e25c2e012a4c2c437113f90992822d324c8e46">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="ce6db384175523be9e766ae12f018dccf56fc3b50f2091391161cf45c8ca5723">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="0e9633e75be172e7f97c33d12ce90b0c3f9a24cda5017d89c306ed4bd4803fba">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="8f5b4907bbdf12e1887f5cf993dd801ef8f787bc31eab1be3beee54e740d4a10">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e13a515d68605d3c7b9245a579a24918abde752ca40cb8142c393494d7effd7c">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e66d8912f158cad056775a7aa709e154f2fa43fbc60b66fcd0888f178ec84fbe">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e698f1160d60faeb5a24a6cace915900c2421079109d4ec66253737819520133">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="8d3b76ad2c60ca004923f2533b583d2ebb8a7ee75f7f0e881162ac417c5ba56c">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="9f710c25c8b3e130509be24558dd16f615f79215c59fd2081a8f0667e1019b2b">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="4a33d6184e2305874587c6d5b739d784afee131b2ece998843b48c5d70f72197">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="5247df4095d67b28c5e1f92453244c317a39db79089919613f2f1d2e4d207024">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="73622ec16fd7df4e6cfb93ff56b7bc48a4c17b6901314e16c8e63f1ad9d98e0a">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="28978e89211bb611aa1e5ba983793922d1d0ebb3d863844f30a0ae66bbb86188">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e8d579f787802659b0e5e234758de0e1079c4f8d5abf0f52493a3e362ed5cd96">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="7012afedf3b8e1e3621803da0ea6b892070a9eb47ba39eb252f8979a0f31c604">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="1f32cbbfb1a5cefdd5492cfd18b8ba56e1969ed3eb4647c518319b6af68ae0d1">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="53321507e97d9d5523d77121a07d124573fb594d1c6085879b8e936568244c10">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="f6cdd895c032aca4c88a0f0ef4dfd438598b0ec2996f2681c7e6e60d522eabf7">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="c1176e9a4dc5d9b643281ccc401cf52e3d18f4cd9cdc4c746670febdd7cfe0eb">
+        <CERT name="465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e"/>
+    </package>
+    <package value="917836b673ae65aa6d6eafed8b39e7e5da08c11954b2b8372a92f0925f428e93">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="2f9d30019d7f19eff3c648a528ef9d9e11507aa7d89745a082f52208f0d71791">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="ab9fb40c8c1d9ca7c980958f516a756855c2c6a0acbedc9180c4652a7e2432f5">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="95a6a51c8f91fbab4ab12142f55a71d03241154dec77fa27400fb4aab7986647">
+        <CERT name="8027d96fac7948a04b4cd0fd87f3abd77aed0d50c82a153cadbf6f37938ce23b"/>
+    </package>
+    <package value="ba18b2484bb5c9bca854e3bd13687e82b67e500e2351d0ca46273e7dc24e3982">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="dec89ba9d98747c928317ac326c323bdffac5de772537fe114609690efa3a1f3">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="b7adf684d536d3059210b20f213ca012eae34d9fa8cdb7691117aaa75cddef36">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="c9e598afe7f1b9ca803ef291060a4c1af1c73fdb1beb6b9558aaf44e0a987d29">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="69c1f25e38879fa32b2cb90ffd6adf4ac55c49eeb3e03dc41ecbe5b0aa99cba8">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package> 
+    <package value="ecb7198c92ad3f374ccbcd44115cca2d0004629bf1777835a4ef65725a2e498f">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="7fc8ef12382da267733a2cb03d5e6171bd2938e79d38dd4878a8a599952aa789">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="1340954b8e84414c2d476ffa0f07c54c180d0fe4a7c427bd0dfc94c22bf0d096">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="b80e6801fb99b656be1a4d033b8608e17aa7c3a08837c7053b640f05eb3f2d69">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="dbc67d3874964edc665c053a92fb0288e8d92a4e223e2e21f0ebacf11d98d1ca">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="b3193e27ea47a064c8aebc0aef53ba66f370a3a91bdbbbebb7c475d6b8aa4ebd">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e46eb4f2475f9e5c504d870521b39949eab8812657c76b4055377f15faf1575a">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <package value="e22ee0a97b462c3baf2a2c4cec79694324a19f06eeb868b43399d84cac4969d1">
+        <CERT name="a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"/>
+    </package>
+    <!-- Global One Store-->
+    <package value="a89606b9e2b24929e029cb2a79984e10153e6b979b06e2ae80184e30a94cd749">
+        <CERT name="77e88a40cb954b2b409bd54199106918b599c116cd51d31a2c7eb7743f56e33a"/>
+    </package>
+    <!-- USA One Store-->
+    <package value="0e48169f91790ade7705baf306cb2206debc160b4b55a32ede0d4b8310bc8062">
+        <CERT name="db2ec54ff14454643bdd183be65567379d062a66f89a4929964b1264a5e7be26"/>
+    </package>
+    <!-- cj -->
+    <package value="131d4ee406591dbd41a889aa41f23bde16df84a835ef9bbda92693fe9aaea4b2">
+        <CERT name="a1ed42050f0afacdc8abaab3721443b1ee90f6c891738e64568ad680c1c589d3"/>
+    </package>
+    <package value="a844cb3ade6efbb42173abb5d91933c503b66932f344837d4ba50b2a6ef1e2ba">
+        <CERT name="41e7b0d8996d015084a8f307d5a8334503aa195fe927084c8d93dd2e3319e77c"/>
+    </package>
+    <!-- Epic Games Installer -->
+    <package value="ac9369ebb96f937294ca8998cacc73312460285d69a9b8170cb797f6c90af214">
+        <CERT name="67699a6b3d315dee51536a67b4f1c6e7e2175f984b096bc2976e512d22940871"/>
+    </package>
+</LIST>
