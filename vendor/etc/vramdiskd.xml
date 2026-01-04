@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<records>
+<boot_file>/system/framework/services.jar</boot_file>
+<boot_file>/system/framework/oat/arm64/services.odex</boot_file>
+<boot_file>/vendor/lib/egl/libGLES_mali.so</boot_file>
+<boot_file>/vendor/lib64/egl/libGLES_mali.so</boot_file>
+<boot_file>/system/framework/framework.jar</boot_file>
+<boot_file>/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk</boot_file>
+<boot_file>/system/framework/arm64/boot-framework.oat</boot_file>
+<boot_file>/system/framework/arm/boot-framework.oat</boot_file>
+<boot_file>/system/lib64/libhwui.so</boot_file>
+<boot_file>/system/lib/libhwui.so</boot_file>
+<boot_file>/system/framework/wifi-service.jar</boot_file>
+<boot_file>/system/lib64/vndk-sp-29/libhardware.so</boot_file>
+<boot_file>/system/lib64/vndk-sp-29/android.hardware.graphics.mapper@2.1.so</boot_file>
+<boot_file>/apex/com.android.art/lib/libart.so</boot_file>
+<boot_file>/data/dalvik-cache/arm64/system@system_ext@priv-app@SystemUI@SystemUI.apk@classes.vdex</boot_file>
+<boot_file>/system/bin/surfaceflinger</boot_file>
+<boot_file>/system/priv-app/TouchWizHome_2017/oat/arm64/TouchWizHome_2017.odex</boot_file>
+<boot_file>/system_ext/priv-app/SystemUI/SystemUI.apk</boot_file>
+<boot_file>/system_ext/priv-app/SystemUI/oat/arm64/SystemUI.odex</boot_file>
+<boot_file>/system/lib64/libinput.so</boot_file>
+<boot_file>/system/lib64/libgui.so</boot_file>
+<boot_file>/vendor/lib64/egl/libGLESv2_adreno.so</boot_file>
+<boot_file>/vendor/lib64/libsdmcore.so</boot_file>
+<boot_file>/vendor/lib64/libsdmextension.so</boot_file>
+<boot_file>/system/lib64/libinputflinger.so </boot_file>
+<boot_file>/system/lib64/android.hardware.graphics.allocator@4.0.so </boot_file>
+<boot_file>/system/lib64/android.hardware.graphics.mapper@2.0.so</boot_file>
+<boot_file>/apex/com.android.permission/javalib/service-permission.jar</boot_file>
+<boot_file>/system/lib64/libinputflinger.so</boot_file>
+<boot_file>/system/framework/knoxsdk.jar</boot_file>
+<boot_file>/system/lib64/libandroid_servers.so</boot_file>
+<boot_file>/system/framework/semwifi-service.jar</boot_file>
+<boot_file>/apex/com.android.i18n/etc/icu/icudt76l.dat</boot_file>
+<boot_file>/apex/com.android.adservices/javalib/framework-sdksandbox.jar</boot_file>
+<boot_file>/apex/com.android.healthfitness/javalib/framework-healthfitness.jar</boot_file>
+<boot_file>/system/fonts/OneUISans-VF.ttf</boot_file>
+<boot_file>/system/framework/framework-res.apk</boot_file>
+<boot_file>/system/lib64/android.system.suspend-V1-ndk.so</boot_file>
+<boot_file>/system/lib64/libhardware_legacy.so</boot_file>
+</records>

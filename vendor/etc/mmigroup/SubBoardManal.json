@@ -1,0 +1,13 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "MainMicToSpeaker"
+    }
+  ]
+}

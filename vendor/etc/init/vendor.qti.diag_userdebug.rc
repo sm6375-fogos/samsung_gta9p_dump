@@ -1,0 +1,46 @@
+#
+# Copyright (c) 2022 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+
+on early-init
+    chown system system /sys/devices/soc0/select_image
+    chown system system /sys/devices/soc0/image_version
+    chown system system /sys/devices/soc0/image_variant
+    chown system system /sys/devices/soc0/image_crm_version
+
+#+P251006-03329, Lei.Xu8, ADD, enable diag on user build
+on boot
+ chown root oem_2902 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/enable_sink
+ chmod 660 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/enable_sink
+ chown system system /sys/bus/coresight/devices/coresight-tmc-etr/enable_sink
+ chmod 664 /sys/bus/coresight/devices/coresight-tmc-etr/enable_sink
+ chown root oem_2902 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/out_mode
+ chmod 660 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/out_mode
+ chown system system /sys/bus/coresight/devices/coresight-tmc-etr/out_mode
+ chmod 664 /sys/bus/coresight/devices/coresight-tmc-etr/out_mode
+ chown root oem_2902 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/block_size
+ chmod 660 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/block_size
+ chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr/block_size
+ chmod 664 /sys/bus/coresight/devices/coresight-tmc-etr/block_size
+ chown root oem_2902 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/buffer_size
+ chmod 660 /sys/devices/platform/soc/8048000.tmc/coresight-tmc-etr/buffer_size
+ chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr/buffer_size
+ chmod 664 /sys/bus/coresight/devices/coresight-tmc-etr/buffer_size
+ chown system system /sys/bus/coresight/devices/coresight-modem-diag/enable_source
+ chmod 660 /sys/devices/platform/soc/soc:modem_diag/coresight-modem-diag/enable_source
+ chown system system /sys/bus/coresight/devices/coresight-modem-diag
+ chmod 664 /sys/bus/coresight/devices/coresight-modem-diag
+ chown root oem_2902 /sys/bus/coresight/reset_source_sink
+ chmod 660 /sys/bus/coresight/reset_source_sink
+    start vendor.diag-router
+#-P251006-03329, Lei.Xu8, ADD, enable diag on user build
+
+service vendor.diag-router /vendor/bin/diag-router
+    class hal
+    user system
+    group system
+    capabilities KILL
+    disabled
+

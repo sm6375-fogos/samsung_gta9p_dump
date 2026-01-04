@@ -1,0 +1,142 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "PogoPinKeyPad"
+		},
+		{
+			"showName": "LCD",
+			"action": "com.mmigroup.action.LCD",
+			"support": true,
+			"automatic": false,
+			"support_autoTest_autopass": false,
+			"paramconfig": {
+				"auto_switch": false,
+				"first_three_delay": 0,
+				"lcd_pic": [
+					"Color_R",
+					"Color_G",
+					"Color_B",
+					"Color_W",
+					"Color_GR127",
+					"Color_BL",
+					"Transition_Gray"
+				]
+			}
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Speaker1"
+		},
+		{
+			"showName": "Speaker2"
+		},
+		{
+			"showName": "Speaker3"
+		},
+		{
+			"showName": "Speaker4"
+		},
+		{
+			"showName": "MainMicToSpeaker"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone",
+			"paramconfig": {
+				"needHeadsetUnPlug": true
+			}
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "Battery",
+			"paramconfig": {
+				"support_afc_charge": false,
+				"support_typec_check": true,
+				"check_usb_is_unplug": false,
+				"support_health_check": true
+			}
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": true,
+				"support_axialresult": true,
+				"support_angle45": false,
+				"support_angleneg45": false,
+				"is_auto_calibrate": false,
+				"support_plus_or_minus_45_degrees_either_pass_through": false,
+				"autoTest": {
+					"support_calibrate": false
+				}
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Optical2"
+		},
+		{
+			"showName": "Magnetic",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_draw": false,
+				"support_test": true,
+				"self_calibrate": false
+			}
+		},
+		{
+			"showName": "Gyroscope",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_test": true,
+				"is_auto_calibrate": false
+			}
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "Sar1"
+		}
+	]
+}

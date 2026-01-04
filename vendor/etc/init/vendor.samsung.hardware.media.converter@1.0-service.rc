@@ -1,0 +1,7 @@
+service vendor-samsung-hardware-media-converter-hal-1-0 /vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
+    interface aidl vendor.samsung.hardware.media.converter.ISehColorConverterStore/default
+    oneshot
+    disabled
+    class hal
+    user system
+    group system

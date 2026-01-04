@@ -1,0 +1,6 @@
+service vendor.wifi_hal_ext /vendor/bin/hw/vendor.samsung.hardware.wifi-service
+    interface aidl vendor.samsung.hardware.wifi.ISehWifi/default
+    class hal
+    capabilities NET_ADMIN NET_RAW SYS_MODULE
+    user wifi
+    group wifi gps

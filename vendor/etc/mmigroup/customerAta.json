@@ -1,0 +1,237 @@
+{
+  "itemConfig": [
+    {
+      "showName": "//CurrentTest",
+      "paramconfig": {
+        "factory_omit_index": 4
+      }
+    },
+    {
+      "showName": "VersionInfo",
+      "paramconfig": {
+        "factory_omit_index": 52
+      }
+    },
+    {
+      "showName": "KeyPad",
+      "paramconfig": {
+        "factory_omit_index": 54
+      }
+    },
+    {
+      "showName": "PogoPinKeyPad",
+      "paramconfig": {
+        "factory_omit_index": 250
+      }
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "factory_omit_index": 58
+      }
+    },
+    {
+      "showName": "Backlight",
+      "paramconfig": {
+        "factory_omit_index": 66
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "paramconfig": {
+        "support_not_auto_result": true,
+        "factory_omit_index": 60
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "paramconfig": {
+        "support_not_auto_result": true,
+        "factory_omit_index": 64
+      }
+    },
+    {
+      "showName": "SMARTPA",
+      "paramconfig": {
+        "factory_omit_index": 57
+      }
+    },
+    {
+      "showName": "Speaker1",
+      "paramconfig": {
+        "factory_omit_index": 104
+      }
+    },
+    {
+      "showName": "Speaker2",
+      "paramconfig": {
+        "factory_omit_index": 105
+      }
+    },
+    {
+      "showName": "Speaker3",
+      "paramconfig": {
+        "factory_omit_index": 106
+      }
+    },
+    {
+      "showName": "Speaker4",
+      "paramconfig": {
+        "factory_omit_index": 107
+      }
+    },
+    {
+      "showName": "MainMicToSpeaker",
+      "paramconfig": {
+        "factory_omit_index": 72
+      }
+    },
+    {
+      "showName": "SubMicToSpeaker",
+      "paramconfig": {
+        "factory_omit_index": 73
+      }
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "factory_omit_index": 76,
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "factory_omit_index": 77,
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "TouchPal",
+      "paramconfig": {
+        "factory_omit_index": 79
+      }
+    },
+    {
+      "showName": "TpOpenShort",
+      "paramconfig": {
+        "factory_omit_index": 80
+      }
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "factory_omit_index": 81,
+        "support_typec_check": false
+      }
+    },
+    {
+      "showName": "SdCard",
+      "paramconfig": {
+        "factory_omit_index": 82
+      }
+    },
+    {
+      "showName": "Wlan",
+      "paramconfig": {
+        "factory_omit_index": 95
+      }
+    },
+    {
+      "showName": "//SIMCardTray",
+      "paramconfig": {
+        "factory_omit_index": 112
+      }
+    },
+    {
+      "showName": "MainSIMCard",
+      "paramconfig": {
+        "factory_omit_index": 83
+      }
+    },
+    {
+      "showName": "Bluetooth",
+      "paramconfig": {
+        "factory_omit_index": 96
+      }
+    },
+    {
+      "showName": "GPS",
+      "paramconfig": {
+        "factory_omit_index": 97
+      }
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "factory_omit_index": 84,
+        "support_typec": true
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "factory_omit_index": 87,
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": false,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Hall",
+      "paramconfig": {
+        "factory_omit_index": 56
+      }
+    },
+    {
+      "showName": "Optical",
+      "paramconfig": {
+        "factory_omit_index": 88
+      }
+    },
+    {
+      "showName": "Optical2",
+      "paramconfig": {
+        "factory_omit_index": 188
+      }
+    },
+    {
+      "showName": "//Optical_c",
+      "paramconfig": {
+        "factory_omit_index": 99,
+        "supportFor45DegreeCalibration": false
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "factory_omit_index": 92,
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "factory_omit_index": 93
+      }
+    },
+    {
+      "showName": "Sar",
+      "paramconfig": {
+        "factory_omit_index": 94
+      }
+    },
+    {
+      "showName": "//FinalRad",
+      "paramconfig": {
+        "factory_omit_index": 5
+      }
+    }
+  ]
+}

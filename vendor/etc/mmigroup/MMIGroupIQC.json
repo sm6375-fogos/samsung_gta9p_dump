@@ -1,0 +1,16 @@
+{
+  "itemConfig": [
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "TouchPal"
+    }
+  ]
+}

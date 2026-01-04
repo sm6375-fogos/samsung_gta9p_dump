@@ -1,0 +1,8 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.media.converter</name>
+        <version>2</version>
+        <fqname>ISehColorConverterStore/default</fqname>
+    </hal>
+</manifest>
+

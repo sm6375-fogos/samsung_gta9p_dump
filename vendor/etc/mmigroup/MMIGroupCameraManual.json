@@ -1,0 +1,10 @@
+{
+  "itemConfig": [
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    }
+  ]
+}

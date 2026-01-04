@@ -1,0 +1,143 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "TouchPanel"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Vibrator",
+			"action": "com.mmigroup.action.RANDOMVIBRATER",
+			"paramconfig": {
+				"randomShortInterval": [
+					6,
+					200,
+					200
+				],
+				"randomLongInterval": [
+					6,
+					200,
+					1000
+				]
+			}
+		},
+		{
+			"showName": "penCharger"
+		},
+		{
+			"showName": "Battery"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "LeftTopSpeaker"
+		},
+		{
+			"showName": "LeftBottomSpeaker"
+		},
+		{
+			"showName": "RightTopSpeaker"
+		},
+		{
+			"showName": "RightBottomSpeaker"
+		},
+		{
+			"showName": "HeadSet",
+			"paramconfig": {
+				"keyCode": [
+					"HEADSETHOOK"
+				]
+			}
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "SubMicToHeadPhone"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "fingerprint"
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": false
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Gyroscope",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_test": true,
+				"is_auto_calibrate": false
+			}
+		},
+		{
+			"showName": "Magnetic",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_draw": false,
+				"support_test": true,
+				"self_calibrate": false
+			}
+		},
+		{
+			"showName": "Sar"
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG2"
+		},
+		{
+			"showName": "OTG3"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "KeyboardTest"
+		},
+		{
+			"showName": "PogoPinBattery"
+		},
+		{
+			"showName": "TvOut"
+		}
+	]
+}

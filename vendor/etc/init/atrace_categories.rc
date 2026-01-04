@@ -1,0 +1,4 @@
+# Sets permission for vendor ftrace events
+on late-init
+    chmod 0666 /sys/kernel/debug/tracing/events/samsung/tracing_mark_write/enable
+    chmod 0666 /sys/kernel/tracing/events/samsung/tracing_mark_write/enable

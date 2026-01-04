@@ -1,0 +1,100 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "PogoPinKeyPad"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "SMARTPA"
+		},
+		{
+			"showName": "Speaker1"
+		},
+		{
+			"showName": "Speaker2"
+		},
+		{
+			"showName": "Speaker3"
+		},
+		{
+			"showName": "Speaker4"
+		},
+		{
+			"showName": "MainMicToSpeaker"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Battery"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "Accelerometer"
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Optical2"
+		},
+		{
+			"showName": "Gyroscope"
+		},
+		{
+			"showName": "Magnetic"
+		},
+		{
+			"showName": "Sar"
+		}
+	]
+}

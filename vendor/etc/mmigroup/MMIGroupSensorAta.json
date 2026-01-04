@@ -1,0 +1,79 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Accelerometer_C",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Optical_c"
+    },
+    {
+      "showName": "Optical2_c"
+    },
+    {
+      "showName": "Optical",
+      "paramconfig": {
+        "value_change_in": 0
+      }
+    },
+    {
+      "showName": "Optical2",
+      "paramconfig": {
+        "value_change_in": 0
+      }
+    },
+    {
+      "showName": "Proximity_C"
+    },
+    {
+      "showName": "Proximity",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": true,
+      "paramconfig": {
+        "distance_tolerance": 0.5
+      }
+    },
+    {
+      "showName": "Proximity_st"
+    },
+    {
+      "showName": "Gyroscope_C",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Hall2"
+    },
+    {
+      "showName": "Pressure_C"
+    },
+    {
+      "showName": "Pressure"
+    }
+  ]
+}

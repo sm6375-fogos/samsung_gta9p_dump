@@ -1,0 +1,13 @@
+{
+  "itemConfig": [
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    }
+  ]
+}

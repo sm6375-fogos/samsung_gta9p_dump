@@ -1,0 +1,210 @@
+{
+  "config":{
+    "hw_platform": ["QRD"],
+    "soc_id": ["507"],
+	"lcd_tp_info": ["xinxian"]
+  },
+  "hx3212a_0_2":{
+    "owner": "sns_hx3212a",
+    ".als":{
+      "owner": "sns_hx3212a",
+      ".config":{
+        "owner": "sns_hx3212a",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "3"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "hx3212a_0_2_platform":{
+    "owner": "sns_hx3212a",
+    ".config":{
+      "owner": "sns_hx3212a",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "43"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "35"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "4"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_hx3212a",
+      ".fac_cal":{
+        "owner": "sns_hx3212a",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "als1_gain8":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ir2_gain8":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "dark4_gain8":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "als1_gain128":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ir2_gain128":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "dark_gain128":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "offset_gain8":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "offset_gain128":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".micro":{
+      "owner": "sns_hx3212a",
+        "0_is_config":{ "type": "int", "ver": "0","data": "1" },
+      "1_als_sw_alpha":{ "type": "int", "ver": "0","data": "16"},
+      "2_cwf_adj":{ "type": "int", "ver": "0","data": "100"},
+      "3_d65_adj":{ "type": "int", "ver": "1","data": "850"},
+      "4_a_adj":{ "type": "int", "ver": "1","data": "1600"},
+      "5_h_adj":{ "type": "int", "ver": "0","data": "1570"},
+      "6_ratio_stop_mult":{ "type": "int", "ver": "0","data": "4000000"},
+      "7_als1_follow":{ "type": "int", "ver": "0","data": "15000"},
+      "8_als1_limit_light":{ "type": "int", "ver": "0","data": "15000"},
+      "9_als_gate_change":{ "type": "int", "ver": "0","data": "3000"},
+      "10_als_beta":{ "type": "int", "ver": "0","data": "128"},    
+      "11_als_light_cali_target":{ "type": "int", "ver": "1","data": "650"},
+      "12_cwf_d65_tran_start":{ "type": "int", "ver": "1","data": "1500"},
+      "13_d65_a_tran_star":{ "type": "int", "ver": "1","data": "820"},
+      "14_a_h_tran_start":{ "type": "int", "ver": "0","data": "300"},
+      "15_screen1_h_coef":{ "type": "int", "ver": "1","data": "13"},
+      "16_screen1_m_coef":{ "type": "int", "ver": "2","data": "17"},
+      "17_screen1_l_coef":{ "type": "int", "ver": "2","data": "22"},
+      "18_screen1_h_thres":{ "type": "int", "ver": "2","data": "555"},
+      "19_screen1_m_thres":{ "type": "int", "ver": "2","data": "740"},
+      "20_lowlight_coef":{ "type": "int", "ver": "1","data": "100"},
+      "21_als_ir_thers":{ "type": "int", "ver": "0","data": "5000"},
+      "22_als_screen_coef":{ "type": "int", "ver": "0","data": "30"}
+    },
+    ".placement":{
+      "owner": "sns_hx3212a",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".register":{
+        "owner": "sns_hx3212a",
+        "Is_config":{ "type": "int", "ver": "0",
+        "data": "1"
+    },
+      "R_001_0x20":{ "type": "int", "ver": "0","data": "0x20"},
+      "V_001_0x20":{ "type": "int", "ver": "0","data": "0x30"},
+      "R_002_0x21":{ "type": "int", "ver": "0","data": "0x21"},
+      "V_002_0x21":{ "type": "int", "ver": "0","data": "0x10"},
+      "R_003_0x30":{ "type": "int", "ver": "0","data": "0x30"},
+      "V_003_0x30":{ "type": "int", "ver": "0","data": "0x30"},
+      "R_004_0x31":{ "type": "int", "ver": "0","data": "0x31"},
+      "V_004_0x31":{ "type": "int", "ver": "0","data": "0x11"},
+	  "R_005_0x80":{ "type": "int", "ver": "0","data": "0x80"},
+      "V_005_0x80":{ "type": "int", "ver": "0","data": "0x12"},
+      "R_006_0x8A":{ "type": "int", "ver": "0","data": "0x8A"},
+      "V_006_0x8A":{ "type": "int", "ver": "0","data": "0xD0"},
+      "R_007_0x8B":{ "type": "int", "ver": "0","data": "0x8B"},
+      "V_007_0x8B":{ "type": "int", "ver": "0","data": "0x00"},
+      "R_008_0x8C":{ "type": "int", "ver": "0","data": "0x8C"},
+      "V_008_0x8C":{ "type": "int", "ver": "0","data": "0xD0"},
+	  "R_009_0x8D":{ "type": "int", "ver": "0","data": "0x8D"},
+      "V_009_0x8D":{ "type": "int", "ver": "0","data": "0x00"},
+	  "R_010_0x29":{ "type": "int", "ver": "0","data": "0x29"},
+      "V_010_0x29":{ "type": "int", "ver": "0","data": "0x06"},
+      "R_011_0x39":{ "type": "int", "ver": "0","data": "0x39"},
+      "V_011_0x39":{ "type": "int", "ver": "0","data": "0x06"},
+      "R_012_0x4A":{ "type": "int", "ver": "0","data": "0x4A"},
+      "V_012_0x4A":{ "type": "int", "ver": "0","data": "0x06"}
+    }
+  }
+}

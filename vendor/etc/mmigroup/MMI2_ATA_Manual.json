@@ -1,0 +1,35 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "lcd_pic": [
+            "Color_R=2000",
+            "Color_G=2000",
+            "Color_B=2000",
+            "Color_W=2000",
+            "Color_GR127=2000",
+            "Color_BL=2000"
+        ]
+      }
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "DepthCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "DualBackCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    }
+  ]
+}

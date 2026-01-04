@@ -1,0 +1,118 @@
+#! /vendor/bin/sh
+secefsDir=/efs
+efsDir=/mnt/vendor/efs
+ato_version=`getprop ro.vendor.mg_factory_mode`
+
+#if [ "${ato_version}" -eq "0" ];then
+#    efsDir=/efs
+#fi
+
+if [ ! -d ${efsDir}/wifi/ ];then
+    mkdir -p ${efsDir}/wifi/
+fi
+
+if [ ! -d ${secefsDir}/bluetooth/ ];then
+    mkdir -p ${secefsDir}/bluetooth/
+fi
+
+if [ ! -f ${efsDir}/wifi/.mac.info ];then
+    touch ${efsDir}/wifi/.mac.info
+    echo "00:00:00:00:00:00" > ${efsDir}/wifi/.mac.info
+fi
+
+if [ ! -f ${secefsDir}/bluetooth/bt_addr ];then
+    touch ${secefsDir}/bluetooth/bt_addr
+    echo "00:00:00:00:00:00" > ${secefsDir}/bluetooth/bt_addr
+fi
+
+#add for google key
+if [ ! -d ${efsDir}/DAK/ ];then
+    mkdir -p ${efsDir}/DAK/
+fi
+
+
+chmod 0777 ${secefsDir}
+chown system:system ${secefsDir}
+
+chmod 0777 ${efsDir}
+chown system:system ${efsDir}
+
+chmod -R 0770 ${efsDir}/wifi/
+chown -R system:system ${efsDir}/wifi/
+
+chmod -R 0770 ${secefsDir}/bluetooth/
+chown -R system:system ${secefsDir}/bluetooth/
+#add for google key
+chmod -R 0770 ${efsDir}/DAK/
+chown -R system:system ${efsDir}/DAK/
+
+if [ ! -d ${secefsDir}/imei/ ];then
+    mkdir -p ${secefsDir}/imei/
+fi
+chmod -R 0770 ${secefsDir}/imei/
+chown -R radio:system ${secefsDir}/imei/
+if [ ! -f ${secefsDir}/imei/prodcode.dat ];then
+    touch ${secefsDir}/imei/prodcode.dat
+    echo "00000000" > ${secefsDir}/imei/prodcode.dat
+fi
+chmod -R 0777 ${secefsDir}/imei/prodcode.dat
+chown -R radio:system ${secefsDir}/imei/prodcode.dat
+if [ ! -f "${secefsDir}/imei/mps_code.dat" ];then
+    touch ${secefsDir}/imei/mps_code.dat
+    echo "00000000" > ${secefsDir}/imei/mps_code.dat
+fi
+chmod -R 0777 ${secefsDir}/imei/mps_code.dat
+chown -R radio:system ${secefsDir}/imei/mps_code.dat
+if [ ! -f ${secefsDir}/imei/assemble ];then
+    touch ${secefsDir}/imei/assemble
+    echo "default" > ${secefsDir}/imei/assemble
+fi
+chmod -R 0777 ${secefsDir}/imei/assemble
+chown -R radio:system ${secefsDir}/imei/assemble
+if [ ! -d ${secefsDir}/FactoryApp/ ];then
+    mkdir -p ${secefsDir}/FactoryApp/
+fi
+if [ ! -f ${secefsDir}/FactoryApp/serial_no ];then
+    touch ${secefsDir}/FactoryApp/serial_no
+    echo "00000000" > ${secefsDir}/FactoryApp/serial_no
+fi
+if [ ! -f ${secefsDir}/FactoryApp/control_no ];then
+    touch ${secefsDir}/FactoryApp/control_no
+    echo "00000000" > ${secefsDir}/FactoryApp/control_no
+fi
+
+if [ ! -f ${secefsDir}/FactoryApp/hw_ver ];then
+    touch ${secefsDir}/FactoryApp/hw_ver
+    echo "00000000" > ${secefsDir}/FactoryApp/hw_ver
+fi
+
+if [ ! -f "${secefsDir}/FactoryApp/copr" ];then
+    touch ${secefsDir}/FactoryApp/copr
+    echo "NONE" > ${secefsDir}/FactoryApp/copr
+fi
+if [ ! -f ${secefsDir}/FactoryApp/pcb_serial_no ];then
+    touch ${secefsDir}/FactoryApp/pcb_serial_no
+    echo "00000000" > ${secefsDir}/FactoryApp/pcb_serial_no
+fi
+
+if [ ! -f "${secefsDir}/FactoryApp/cal_date" ];then
+    touch ${secefsDir}/FactoryApp/cal_date
+    echo "00000000" > ${secefsDir}/FactoryApp/cal_date
+fi
+
+if [ ! -f ${secefsDir}/FactoryApp/OmitData ];then
+    touch ${secefsDir}/FactoryApp/OmitData
+    for i in $(seq 0 500)
+    do
+        if ((i < 10 ));then
+            echo -ne "00">>${secefsDir}/FactoryApp/OmitData
+        elif ((i>=10 && i<=99));then
+            echo -ne "0">>${secefsDir}/FactoryApp/OmitData
+        fi
+        echo -ne "${i}N">>${secefsDir}/FactoryApp/OmitData
+    done
+fi
+
+chmod -R 0777 ${secefsDir}/FactoryApp/
+chown -R system:system ${secefsDir}/FactoryApp/
+

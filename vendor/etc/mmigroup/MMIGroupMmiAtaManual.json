@@ -1,0 +1,16 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "PogoPinKeyPad"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}

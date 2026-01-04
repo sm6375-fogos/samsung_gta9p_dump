@@ -1,0 +1,13 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.sysinput</name>
+        <version>2</version>
+        <interface>
+            <name>ISehSysInputDev</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISehSysInputCallback</name>
+        </interface>
+    </hal>
+</manifest>

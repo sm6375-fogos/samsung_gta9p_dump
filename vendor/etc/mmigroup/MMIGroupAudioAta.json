@@ -1,0 +1,150 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Receiver",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/rec.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=receiver_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_ata"
+        ]
+      }
+    },
+    {
+      "showName": "TopSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_ata"
+        ]
+      }
+    },
+    {
+      "showName": "BottomSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_ata"
+        ]
+      }
+    },
+    {
+      "showName": "LeftSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_ata"
+        ]
+      }
+    },
+    {
+      "showName": "RightSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker1",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_top_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker2",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_bottom_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker3",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_top_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker4",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav",
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_bottom_ata"
+        ]
+      }
+    },
+    {
+      "showName": "MainMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "SubMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.7,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic_ata",
+          "mmitest=on;outputdevice=headphone_ata"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo",
+			"paramconfig": {
+				"AddInfo": {
+					"//TPcolor": "any",
+					"CPUID": "any",
+					"TP": "any",
+					"RPMB": "any",
+					"CameraInfo": "any",
+					"BuildNumber": "any",
+					"BaseBandVersion": "any",
+					"KernelVersion": "any",
+					"LCM": "any",
+					"verifiedbootstate": "green",
+					"System_Verity": "true"
+				}
+			}
+		},
+		{
+			"showName": "SMARTPA"
+		},
+		{
+			"showName": "KeyPad",
+			"paramconfig": {
+				"keyCode": [
+					"VOLUME_UP",
+					"VOLUME_DOWN"
+				]
+			}
+		},
+		{
+			"showName": "Speaker1"
+		},
+		{
+			"showName": "PogoPinKeyPad"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "Speaker2"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "Speaker3"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Speaker4"
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "MainMicToSpeaker"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "AFCCharge"
+		},
+		{
+			"showName": "PDCharge"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth",
+			"paramconfig": {
+				"support_device_name": false,
+				"support_device_address": true
+			}
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "OTG"
+		},
+		{
+			"showName": "Accelerometer"
+		},
+		{
+			"showName": "Hall"
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Optical2"
+		},
+		{
+			"showName": "Gyroscope"
+		},
+		{
+			"showName": "Magnetic"
+		},
+		{
+			"showName": "Sar"
+		}
+	]
+}
